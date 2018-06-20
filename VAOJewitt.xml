@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <!-- The two cover pages should go here -->
+         <pb n="4"/>
+         <head rend="align(center) case(allcaps)">The
+         <lb/>History
+         <lb/>of
+         <lb/>Valentine <!-- should I endode the size and difference of type? -->
+         <lb/>and
+         <lb/>Orson.</head>
+         <figure><figDesc>Line <!-- Maybe this is how I should do this? maybe i should take this out? --></figDesc></figure>
+         <p><persName>Pepin</persName>, King of France, had a sister named <persName>Bellisant</persName>, whose hand was demanded by several kings and princes. Her choice fell on <persName>Alexander</persName>, Emperor of <placeName>Constantinople</placeName>, who came to the court of <persName>King Pepin</persName> to espouse her, and then escourt her home in state as his bride.</p>
+         <p><persName>Alexander's</persName> Prime minister <!-- should this be encoded in total as a persName because this is a new character or just alex because he has already been done?  -->, and a favorite, was a shelfish and cruel arch-priest, who, fearing the lovely empress would soon usurp his influence wover the emperor, resolved to effect her destruction.</p>
+         <p>The emperor, being of a suspicious disposition, the arch priest worked upon it for some time, at first; and then one day, when the emperor was alone, he entered his apartments, and said;— " Mighty king, may heaven guard your majesty from the treacherous designs of your empress: who, not content with faithfulness to your sacred person, now seeks to destroy even your life,"</p>
+         <pb n="5" /> <!-- need the image facs --><fw type="header" place="top" rend="case(allcaps) align(center)">Valentine and Orson.</fw>
+         <p>The emperor, implicitly believing the priest, could not restrain his fury ; but rushing into his wife's apartment, he in a savage manner, dragged her about by the hair, exclaiming,<said>"Base Wretch! I am but too well informed of your infamous proceedings!"</said>  Then dashing her on the ground, her left her, desiring her to prepare herslef for death.</p>
+         <p>The empress having by the help of her attendants, somewhat recovered, sought the emperor, and falling on her knees thus addressed him,—<said>"Oh take pity on one who has ever faithfully loved you! I shall soon become a mother; and I implore your compassion on behalf of my child! let me be imprisoned until its birth ; and then, if your anger be not appeased, do with me as you please ; but, oh! save my child!</said><!-- there is no ending quotation mark, but I am assuming this is where her speaking ends -->The emperor replied, <said>"Perish, base woman,and the child of your perfidy with you!"</said> when the courtiers, seeing any further appeal would but increase his rage removed <persName>Bellisant</persName> from his presence.</p>
+         <p>Her faithful servant, <persName>Blandiman</persName>, now threw himseld at her feet, imploring her to leave her barbsrous husband, and suffer him to conduct her to her brother's court, but she refused, as that would imply a confession of guilt.</p>
+         <p>The emperor banidhed his queen, instead of putting her to death, but forbade all persons, except her faithful attendant, <persName>Blandiman</persName>, to assist her, on pain of death.  Thus accompanied, she soon reached the forest of Orleans, when overcome with fatigur, she sank on a couch made up of withered leaves and moss, prepared by her devoted servant, who then hastened away, to procure
+            <pb n="6"/><fw type="header" place="top" rend="case(allcaps) align(center)">alentine and Orson.</fw> some assistance. Suring <persName>Blandiman</persName>'s absence the poor lady gave birth to two beautiful boys, when just as she was pressing them to her bosom as huge bear rushed upon her, and snatching up<figure></figure> one of the babes in its mouth, darted off inot the thickest of the forest with it. The wretched mother pursued, uttering the wildest shrieks, until exhausted by terror, she fell into a swoon, at the mouth of the monster's cave</p>
+         <pb n="6"/><fw type="header" place="top" rend="case(allcaps) align(center)">Valentine and Orson.</fw><!-- Why are there two page 6es? -->
+         <p>It chanced that <persName>King Pepin</persName> was that day hunting in the forest, and passing near the spot where the other infant laid, was surprised to see the little beauty, who held out his tiny arms, as if to ask for protection. <said>"See, my lords,"</said> said <persName>King Pepin</persName>, <said>"this lovely infant appears to solicit my favour; I will adopt it as my own."</said> He then delivered the babe to one of the pages, who took it to a nurse, and by the royal command, it recieved the name of Valentine.</p>
+         <p>Scarcely had the page galloped off when the king met <persName>Blandiman</persName>, and demanded what news from <placeName>Constantinople</placeName>, when hearing that the arch-priest has accused his royal sister of plotting the emperor's death, he declared his belief in its truth, and blamed the emperor for sparing her life, adding, <said>"Let her beware how she comes inot my power."</said></p>
+         <p><persName>Blandiman</persName> now sought his mistress, whom he found half distracted with her accumulated miseries, She related to him the birth and dreadful loss of her infant, and learning her brother's unjust wrath against her, resolved to take shelter in a monastery.</p>
+         <p>The bear that carried away the infant, took it to her cave, and laid it before her younf; the cubs, however, instead of devouring it, fondled it which the old one percieving, gave it suck and the child grew string and hearty. As he increased in size and strength, he ranged the forest attacking the wild beast with such fury, that they dare not approach the cave in which he continued
+            <pb n="7"/><fw type="header" place="top" rend="case(allcaps) align(center)">Valentine and Orson.</fw> to reside with the old bear till his eighteenth year, when his strength was so amazing, and the terror he caused in all the country rouch, so great, that his renown spread all over <placeName>France</placeName>. He was called <persName>Orson</persName>, from having been nurtured by a bear.</p>
+      </body>
+  </text>
+</TEI>
