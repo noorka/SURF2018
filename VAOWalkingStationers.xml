@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb/>
+         <head rend="align(center)">THE
+         <lb/>HISTORY
+         <lb/>OF
+         <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
+         <lb/><!-- pretty line here -->
+         <ab rend="slant(italic) align(center)">Reader, you'll find this little Book contains
+         <lb/>Engough to answer thy expense and pains;
+         <lb/>And if with caution you will read it through,
+         <lb/>'Twill both instruct, and delight thee too.</ab>
+         <lb/><!-- another pretty line -->
+         <figure></figure>
+         <!-- this one looks like a double helix -->
+         <ab rend="align(center)">Printed for the Company of Walking Stationers.</ab>
+         <pb/>
+         <!-- Pretty star box -->
+         <head rend="align(center)">THE
+            <lb/>HISTORY
+            <lb/>OF
+            <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
+         <!-- Double helix line thing -->
+         <ab rend="aligh(center) case(allcaps)">Chap. I.</ab>
+         <ab rend="slant(italic)"><!-- Hanging indent -->The baniſhment of the <persName>Lady Belliſant</persName>, who is delivered of <persName>Valentine</persName> and <persName>Orſon</persName> at one Birth, in a wood,</ab>
+         <p>I<!-- This is a super fancy I  -->T is recorded, that <persName>PEPEN</persName>, King of <placeName>France</placeName>, had a fair ſiſter named <persName>Belliſant</persName>, who was married to <persName>Alexander</persName>, the Emperor of <placeName>Greece</placeName>, and by him carried to his Capital at <placeName>Conſtantinople</placeName>; from whence, after having lived with great virtue, ſhe was baniſshed through the means of a falſe accuſer, whom the had ferverely check for his imprudence; and though at the ſame time ſhe was big with Child, yet ſhe was compelled to
+         <pb n="3"/><fw rend="align(center)">( 3 )</fw>
+            leave her huſband's empire, to the great regret of the people, attended only with a ſquire named <persName>Blandiman</persName>.</p>
+         <p>After a great fatigue and travel, ſhe arrived in the foreſt of <placeName>Orleans</placeName>, where finding her pains come thick upon her, ſhe diſmiſſed her attendant for a midwife, but before his return was delivered of two lovely children, one of which was converyed away by a ſhe bear, but ſhe willing to ſave it purſused on her hands and knees, leaving the other behind.</p>
+         <p>But before her return, <persName>King Pepin</persName> being hunting in the foreſt, came to the tree where ſhe left the other babe, and cauſing it to be taken up, ſent it to a nurſe, and when it grew up called his name <persName>Valentine</persName>.—<persName>Blandiman</persName> at length came back, and inſtead of finding his miſtreſs founf her brother <persName>Pepin</persName> at the tree, to which he declared all that had happened, and how his ſiſter was baniſhed through the falſe ſuggeſtions of the arch prieſst; which when <persName>King Pepin</persName> heard he was greatly enraged againſt the lady <persName>Belliſant</persName>, ſaying the Emperor ought to have put her to death; ſo leaving <persName>Blandiman</persName>, he returned to his nobles at <placeName>Paris</placeName>.—The lady <persName>Belliſant</persName> having followed the bear to no pur-
+            <pb n="4"/><fw rend="align(center)">( 4 )</fw>poſe, returned to the place where ſhe had left the other babe; but great was her ſorrow when <persName>Blandiman</persName> ſaid he had ſeen her brother <persName>Pepin</persName>, but could tell nothing of the child; and having comforted her of the loſ of it, they went to the ſea-ſide took ſhipping, and arrived at the caſtle of the <persName>Giant Feragus</persName>, in <placeName>Portugal</placeName>.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>
