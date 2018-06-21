@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -15,39 +15,153 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <pb/>
-         <head rend="align(center)">THE
-         <lb/>HISTORY
-         <lb/>OF
-         <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
-         <lb/><!-- pretty line here -->
-         <ab rend="slant(italic) align(center)">Reader, you'll find this little Book contains
-         <lb/>Engough to answer thy expense and pains;
-         <lb/>And if with caution you will read it through,
-         <lb/>'Twill both instruct, and delight thee too.</ab>
-         <lb/><!-- another pretty line -->
-         <figure></figure>
+         <head rend="align(center)">THE <lb/>HISTORY <lb/>OF <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
+         <lb/>
+         <!-- pretty line here -->
+         <ab rend="slant(italic) align(center)">Reader, you'll find this little Book contains <lb/>Engough to answer thy expense and pains; <lb/>And
+            if with caution you will read it through, <lb/>'Twill both instruct, and delight thee too.</ab>
+         <lb/>
+         <!-- another pretty line -->
+         <figure/>
          <!-- this one looks like a double helix -->
          <ab rend="align(center)">Printed for the Company of Walking Stationers.</ab>
          <pb/>
          <!-- Pretty star box -->
-         <head rend="align(center)">THE
-            <lb/>HISTORY
-            <lb/>OF
-            <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
+         <head rend="align(center)">THE <lb/>HISTORY <lb/>OF <lb/><hi rend="slant(italic)">Valentine and Orson</hi></head>
          <!-- Double helix line thing -->
          <ab rend="aligh(center) case(allcaps)">Chap. I.</ab>
-         <ab rend="slant(italic)"><!-- Hanging indent -->The baniſhment of the <persName>Lady Belliſant</persName>, who is delivered of <persName>Valentine</persName> and <persName>Orſon</persName> at one Birth, in a wood,</ab>
-         <p>I<!-- This is a super fancy I  -->T is recorded, that <persName>PEPEN</persName>, King of <placeName>France</placeName>, had a fair ſiſter named <persName>Belliſant</persName>, who was married to <persName>Alexander</persName>, the Emperor of <placeName>Greece</placeName>, and by him carried to his Capital at <placeName>Conſtantinople</placeName>; from whence, after having lived with great virtue, ſhe was baniſshed through the means of a falſe accuſer, whom the had ferverely check for his imprudence; and though at the ſame time ſhe was big with Child, yet ſhe was compelled to
-         <pb n="3"/><fw rend="align(center)">( 3 )</fw>
-            leave her huſband's empire, to the great regret of the people, attended only with a ſquire named <persName>Blandiman</persName>.</p>
-         <p>After a great fatigue and travel, ſhe arrived in the foreſt of <placeName>Orleans</placeName>, where finding her pains come thick upon her, ſhe diſmiſſed her attendant for a midwife, but before his return was delivered of two lovely children, one of which was converyed away by a ſhe bear, but ſhe willing to ſave it purſused on her hands and knees, leaving the other behind.</p>
-         <p>But before her return, <persName>King Pepin</persName> being hunting in the foreſt, came to the tree where ſhe left the other babe, and cauſing it to be taken up, ſent it to a nurſe, and when it grew up called his name <persName>Valentine</persName>.—<persName>Blandiman</persName> at length came back, and inſtead of finding his miſtreſs founf her brother <persName>Pepin</persName> at the tree, to which he declared all that had happened, and how his ſiſter was baniſhed through the falſe ſuggeſtions of the arch prieſst; which when <persName>King Pepin</persName> heard he was greatly enraged againſt the lady <persName>Belliſant</persName>, ſaying the Emperor ought to have put her to death; ſo leaving <persName>Blandiman</persName>, he returned to his nobles at <placeName>Paris</placeName>.—The lady <persName>Belliſant</persName> having followed the bear to no pur-
-            <pb n="4"/><fw rend="align(center)">( 4 )</fw>poſe, returned to the place where ſhe had left the other babe; but great was her ſorrow when <persName>Blandiman</persName> ſaid he had ſeen her brother <persName>Pepin</persName>, but could tell nothing of the child; and having comforted her of the loſ of it, they went to the ſea-ſide took ſhipping, and arrived at the caſtle of the <persName>Giant Feragus</persName>, in <placeName>Portugal</placeName>.</p>
-         <p></p>
+         <ab rend="slant(italic)"><!-- Hanging indent -->The baniſhment of the <persName>Lady Belliſant</persName>, who is delivered of
+               <persName>Valentine</persName> and <persName>Orſon</persName> at one Birth, in a wood,</ab>
+         <p>I<!-- This is a super fancy I  -->T is recorded, that <persName>PEPEN</persName>, King of <placeName>France</placeName>, had a fair ſiſter
+            named <persName>Belliſant</persName>, who was married to <persName>Alexander</persName>, the Emperor of <placeName>Greece</placeName>, and
+            by him carried to his Capital at <placeName>Conſtantinople</placeName>; from whence, after having lived with great virtue, ſhe was
+            baniſshed through the means of a falſe accuſer, whom the had ferverely check for his imprudence; and though at the ſame time ſhe was big
+            with Child, yet ſhe was compelled to <pb n="3"/><fw rend="align(center)">( 3 )</fw> leave her huſband's empire, to the great regret of the
+            people, attended only with a ſquire named <persName>Blandiman</persName>.</p>
+         <p>After a great fatigue and travel, ſhe arrived in the foreſt of <placeName>Orleans</placeName>, where finding her pains come thick upon
+            her, ſhe diſmiſſed her attendant for a midwife, but before his return was delivered of two lovely children, one of which was converyed
+            away by a ſhe bear, but ſhe willing to ſave it purſused on her hands and knees, leaving the other behind.</p>
+         <p>But before her return, <persName>King Pepin</persName> being hunting in the foreſt, came to the tree where ſhe left the other babe, and
+            cauſing it to be taken up, ſent it to a nurſe, and when it grew up called his name
+               <persName>Valentine</persName>.—<persName>Blandiman</persName> at length came back, and inſtead of finding his miſtreſs founf her
+            brother <persName>Pepin</persName> at the tree, to which he declared all that had happened, and how his ſiſter was baniſhed through the
+            falſe ſuggeſtions of the arch prieſst; which when <persName>King Pepin</persName> heard he was greatly enraged againſt the lady
+               <persName>Belliſant</persName>, ſaying the Emperor ought to have put her to death; ſo leaving <persName>Blandiman</persName>, he
+            returned to his nobles at <placeName>Paris</placeName>.—The lady <persName>Belliſant</persName> having followed the bear to no pur- <pb
+               n="4"/><fw rend="align(center)">( 4 )</fw>poſe, returned to the place where ſhe had left the other babe; but great was her ſorrow when
+               <persName>Blandiman</persName> ſaid he had ſeen her brother <persName>Pepin</persName>, but could tell nothing of the child; and having
+            comforted her of the loſ of it, they went to the ſea-ſide took ſhipping, and arrived at the caſtle of the <persName>Giant
+               Feragus</persName>, in <placeName>Portugal</placeName>.</p>
+         <p>All this while the bear nouriſhed the infant amongſt her young ones, until at length it gre up a wild hairy man, doing great miſchief to
+            all that paſſed thro' the foreſt; in which we will leave him, and return to the arch prieſt, who fif great miſchief, till he was imprached
+            by a merchant of having wrongfully accuſed the Empreſs; upon which they fought, and the merchant conquering, made the prieſt confeſs all
+            his treaſons, the Emperor wrote about it to the <persName>King of France</persName> and he was hanged.</p>
+         <figure><!-- Lion and unicorn --></figure>
+         <pb n="5"/>
+         <fw rend="align(center)">( 5 )</fw>
+         <!-- Pretty line -->
+         <ab rend="case(allcaps) align(center)">Chap II.</ab>
+         <ab rend="slant(italic) align(center)"><persName>Valentine</persName> conquers his Brother in the foreſt of
+            <placeName>Orelans.</placeName></ab>
+         <p>N<!-- Another fancy letter -->OW was <persName>Valentine</persName> grown a luſty young man, and by the <persName>King</persName> as
+            greatly belived as if he had been his own ſon : commanding him to be taught the uſe of arms, in which he ſoon became ſo expert, that few
+            in the court dared to encounter him : which made <persName>Hufray</persName> and <persName>Heny</persName> the King's baſtard ſons
+            exceedingly envy him. At this junct<!-- There is not ct ligature... -->ure great complaints were made againſt the <persName>Wild
+               Man</persName>, from whom no Knight had eſcaped with his life, and had encountered him: which made the King promiſe a thouſand marks to
+            any that would bring him dead or alive, which offer none dare except; but <persName>Hufray</persName> and <persName>Henry</persName>
+            defired <persName>King Pepin</persName> to ſend <persName>Valentine</persName>, with a view of getting rid of ſo powerful a rival in the
+            the King's favour, but his Majeſty fleeing their malady, was very angry, telling them, he would rather loſe the beſt Baron in the
+            land.</p>
+         <pb n="6"/>
+         <fw rend="align(center)">( 6 )</fw>
+         <p>However <persName>Valentine</persName> defired leave of his Majeſty to go to the foreſt, reſolving either to conquer the <persName>Wild
+               Man</persName>, or die in the attempt. Accordingly having furniſhed himſelf with a good horſe and arms, he ſet forward on his journey,
+            and after two dayd travelling, he arrived in the foreſt; in the evening he tied his horſe to a large ſpreading oak, and got up in a tree
+            himſelf, for his ſecurity, where he reſted that night.</p>
+         <p>Next morning he beheld the <persName>Wild Man</persName> traverſing the foreſt in ſearch of his prey, at length he came to the tree where
+            Valentine's horſe ſtood, from whom he pulled many hairs, upon which the horſe kicked him. The <persName>Wild Man</persName> feeling the
+            pain, was going to tear him to pieces, which <persName>Valentine</persName> ſeeing, made ſigns as if he would fight him, and accordingly
+            he leaped down, and gave him a blow, but the <persName>Wild Man</persName> caught him and threw him to the ground. Then taking up
+            Valentine's ſhield, he behild it with amaze, with reſpect<!-- ct ligature --> to the divers colours thereon emblazoned.</p>
+         <p><persName>Valentine</persName> being much bruiſed, got up and went towards his brother in great hanger: but <persName>Orſon</persName> ran
+            to a tree, and the <pb n="7"/><fw rend="align(center)">( 7 )</fw> they engaged; but both being terrible wounded gave out by conſent; after
+            which <persName>Valentine</persName> ſigned to <persName>Orſon</persName>, that if he would yield to him, he would order matters ſo as he
+            ſhould become a rational creature.</p>
+         <p><persName>Orſon</persName> thinking that he meant him no harm, ſtretched forth his hand to him; upon which he bound him, and then led him
+            to Paris, where he preſented him to <persName>King Pepin</persName>, who had the <persName>Wild Man</persName> baptized by the name of
+               <persName>Orſon</persName>, from his being taken in a wood. <persName>Orſon</persName>'s actions<!-- ct ligature --> during their ſtay
+            there very much amuſed the court, and at length the <persName>Duck of <placeName>Acquitain</placeName></persName> ſent letters importin,
+            that whoſoever would overthrow the <persName>Green Knight</persName>, a pagan champion, ſhould have his daughter
+               <persName>Fazon</persName> in marriage. Upon which propſition <persName>Valentine</persName> ſet out for that province, attended by his
+            brother <persName>Orſon</persName>, by which means he came to the knowledge of his parents, as we ſhall find hereafter.</p>
+         <figure><!-- Lyre and horn --></figure>
+         <pb n="8"/>
+         <fw rend="align(center)">( 8 )</fw>
+         <!-- pretty line -->
+         <ab rend="align(center) case(allcaps)">Chap. III</ab>
+         <ab rend="slant(italic) align(center)">The fight between <persName>Orſon</persName> and the <persName>Green Knight</persName>.</ab>
+         <p>A<!-- fancy giant letter -->FTER a long journey, <persName>Valentine</persName> and <persName>Orſon</persName> arrived at <persName>Duke
+               Savary's</persName> palace in <placeName>Acquitain</placeName>; and making known the reaſon that they came there, were preſented to
+               <persName>Fazon</persName>; to whom <persName>Valentine</persName> thus addreſſed himſeld:</p>
+         <p><said>"Sweet creature, <persName>King Pepin</persName> has ſent me hither with the braveſt Knight in all his realm to fight the
+                  <persName>Green Knight</persName>, who though he his numb and naked, is endued with ſuch valour, that no Knight under the ſun is
+               able to cope with him."</said></p>
+         <p>During this ſpeeched ſhe viewed <persName>Orſon</persName> narrowly, and he her; but ſupper coming in, interrupted them, and they ſat down
+            to eat.</p>
+         <p>Wilſt they were in the midſt of all ther feaſtings, the <persName>Green Knight</persName> entered ſaying, <said><persName>Duke
+                  Acquitain</persName> haſt thou any more Knights to cope with me for thy daughter?</said>
+            <said>Yes</said>, replied the Duke, <said>I have ſeventeen</said>, and then ſdhewed them to <pb n="9"/><fw rend="align(center)">( 9 )</fw>
+            him. The <persName>Green Knight</persName> then ſaid to them, <said>est your fill, for to-morrow will be your laſt.
+               </said><persName>Orſon</persName> hearing what he ſaid, was much incenſed againſt him, and ſuddenly riſing from the table, threw the
+               <persName>Green Knight</persName> with ſuch force againſt the wall as laid him dead for ſome tiem; which very much pleased the whole
+            company.</p>
+         <p>Next day many Knights went to went to fight the <persName>Green Knight</persName>, but he overcame and ſlew them all; till at laſt,
+               <persName>Orſon</persName> being armed in Vlaentine's armour, cam to the Green Knight's pavilion, and defying him, they began the moſt
+            deſprate combat as ever was heard of, and the <persName>Green Knight</persName> made ſo great a ſtroke at him, as to cut the top of his
+            helmit, and half his ſhield, and wounded him much. But this ſerved only to enrage the valiant <persName>Orſon</persName>, who coming up o
+            him on foot, took hold of him, and pulled him from his horſe, got aſtride him, and was juſt going to kill him, but was prevented by the
+            ſudden arrival of <persName>Valenine</persName>, who interceded with <persName>Orſon</persName> to ſpare his life, on the condition of his
+            turning Chriſtian, and acuainting <persName>King Pepin</persName> how he was conquered.</p>
+         <pb n="10"/>
+         <fw rend="align(center)">( 10 )</fw>
+         <p>The <persName>Green Knight</persName> having promiſed to perform all tat was deſired, they led him priſoner to the city of
+               <placeName>Acquitain</placeName>, and the <persName>Duke</persName> recieved them with great joy, and offered the lady
+               <persName>Fazon</persName> to <persName>Orſon</persName>; but he would not marry her till his brother had won the Green Knight's
+            ſiſter, lday <persName>Clerimond</persName>; not till they had tolked with the enchanted head of braſs to know his parents, and get the
+            proper uſe of his tongue; which when the lady knew ſhe was very ſorry, because ſhe loved <persName>Orſon</persName>, and was reſolved to
+            marry none but him, who had so nobly conquered the <persName>Green Knight.</persName></p>
+         <!-- There is a line of pretty stars here -->
+         <ab rend="align(center) case(allcaps)">Chap. IV.</ab>
+         <ab rend="align(center) slant(italic)"><persName>Valentine</persName> and <persName>Orſon</persName> go in ſearch of <persName>Lady
+               Clerimond</persName>, who had the <name>Brazen Head</name> in her poſſeſſion.</ab>
+         <p><persName>V<!-- Fancu letter -->ALENTINE</persName> and <persName>Orſon</persName> having taken leave of the <persName>Duke of
+                  <placeName>Acquitain</placeName></persName> and his dauther <persName>Fazon</persName>, proceeded on their journey in ſearch of the
+            lady <persName>Clerimond</persName>, and at laſt came to a tower of burniſhed braſs; which upon enquiry they diſco- <pb n="11"/><fw
+               rend="align(center)">( 11 )</fw> vered to be kepy by <persName>Clerimond</persName>, ſiſter to <persName>Feragus</persName> and the
+            defeated <persName>Green Knight</persName>, and having demanded entrance was reguſed it by the ventinal who guarded the gate, which
+            provoked <persName>Valentine</persName> to that degree, that he run againſt him with ſush fury that the centinal fell down dead
+            immeadiately.</p>
+         <p>The lady <persName>Clerimond</persName> beheld all this dicpute, and ſeeing them brave Knights, recieved them
+               courteouſly.—<persName>Valentine</persName> having perſented tokensfrom the <persName>Green Knight</persName> told her, he came there
+            fro the love of her, and to diſcourſe with the Allknowing Head, concerning their parents. After dinner, the lady took them by the hand,
+            and led them to the chamber of rarieties, where the Head was placed between four pillars of pure jaſper, when, as they entered it made the
+            following ſpeech to <persName>Valentine</persName>:</p>
+         <p><said>"Thou famous Knight of royal extract <!-- ct ligature --> art called <persName>Valentine</persName> the vlaient, who of right ought
+               to marry the lady <persName>Clerimond</persName>. Thou art, ſon to the Emperor of <placeName>Greece</placeName> Empreſs
+                  <persName>Belliſant</persName>, who is now in the caſtle of <persName>Feragus</persName>, in <placeName>Portugal</placeName>, where
+               they have reſided for twenty years. <persName>King Pepin</persName> is thine uncle, and the <persName>Wild Man</persName> they brother;
+               the Empreſs <persName>Belliſant</persName> brought ye two in the freſt of <placeName>Oreleans</placeName>; he was <pb n="12"/><fw
+                  rend="align(center)">( 12 )</fw> taken away by a ravenous bear, and thou waſt taken up by thy uncle <persName>Pepin</persName>, who
+               brought thee up to man s eſtate <!-- This is weird looking -->. Moreover I likewiſe tell thee, that they brother ſhall never ſpeak till
+               thou cutteſt the thread that grows under his tongue.</said></p>
+         <p>The <name>Brazen Head</name> having ended his ſpeech, <persName>Valentine</persName> embraced <persName>Orſon</persName> and cut the
+            thread which grew under his tongue; and he directly <!-- ct ligature --> related many ſurpriſing things. After which
+               <persName>Valnetine</persName> married <persName>Lady Clerimond</persName>, btu not before ſhe turned Chriſtian.</p>
+         <p>In the caſtle</p>
       </body>
-  </text>
+   </text>
 </TEI>
