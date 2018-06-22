@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb/>
+         <!-- the title page is surrounded with a pretty pattern -->
+         <ab rend="align(center) case(allcaps)">The
+         <lb/>Adventures
+         <lb/>of
+         <lb/><persName>Valentine</persName> and <persName>Orson</persName>.
+            <!-- There is a little line between the two headings -->
+         <lb/>Ornamented with eight engravings.</ab>
+         <!-- Picture of a tree? -->
+         <ab rend="align(center) case(allcaps)">Boston:
+         <lb/>Published by R. P. &amp; C. Williams,</ab>
+         <ab rend="case(smallcaps) align(center)"><lb/>No.8, State-Street.
+         <lb/>1814.</ab>
+         <pb/>
+         <ab rend="case(allcaps) align(center)">Frontispiece.</ab>
+         <figure><caption rend="align(center) slant(italic)"><persName>King Pepin</persName> attacked by <persName>Orson</persName>.   <hi rend="slant(regular)">See page 12.</hi></caption></figure>
+         <pb/>
+         <ab rend="align(center) case(allcaps)">The
+            <lb/>Adventures
+            <lb/>of
+            <lb/><persName>Valentine</persName> and <persName>Orson</persName>.
+            <!-- There is a little line between the two headings -->
+            <lb/>Ornamented with eight engravings.</ab>
+         <!-- Picture of a horse in the forest? -->
+         <ab rend="align(center) case(allcaps)">Boston:
+            <lb/>Published by R. P. &amp; C. Williams,</ab>
+         <ab rend="case(smallcaps) align(center)"><lb/>No.8, State-Street.
+            <lb/>1814.</ab>
+         <pb/>
+         <!-- blank page with water damage-->
+         <pb/>
+         <ab rend="case(allcaps) align(center)"><persName>Valentine</persName> and <persName>Orson</persName></ab>
+         <!-- line -->
+         <p><hi rend="case(allcaps)">The</hi> renowned <persName>Pepin</persName>, king of <placeName>France</placeName>, had a sister named <persName>Bellisant</persName>, who was exceedingly beautiful, and whose hand was demanded in marriage by several kings and princes. The lady <persName>Bellisant's</persName> choice fell on <persName>Alexander</persName>, emperor of <placeName>Constantinople</placeName>, who came to the court of <persName>king Pepin</persName> to espouse the princess. Great rejoicings were made on the occasion throughout <placeName>France</placeName>; and shortly after the marriage, the emperor took leave of <persName>king Pepin</persName>, and conducted his lovely bride with great pomp and triumph to the city of <placeName>Constantinople</placeName>.</p>
+         <p>The emperor's prime minister and greatest favorite was an arch priest, a selfish and cruel man, who completely governed the emperor, and tyrannized over his subjects. The arch priest observing the gentleness and sweetness of the new empress, began to fear that she would acquire too much influence over the emperor, and wickedly resolved to seek the destruction of the innocent lady. The emperor was of a credulous and suspicious temper, and the arch priest soon
+         <pb n="4"/><fw rend="case(allcaps)">4 <hi rend="align(center)">The adventires of </hi></fw>
+         found means to infuse into his mind suspicions of the empress. One day when the emperor was alone, the arch priest entered the apartment and, prostrating himself at the emperor's feet, said, <said>"High and mighty king, may heaven guard your majesty from the base attempts of the wicked and treacherous! I am a holy priest and may not seek the death of any man; nor may I reveal the name of the criminal who had intrusted to me, in the way of confession, a dreadful secret; but, in the most solemn manner, I conjure your majesty to beware of designs of your empress; for that beautiful and dissembling lady in faithless and disloyal, and even now planning your death. O mighty emperor! my heart swells with indignation, to think that a lday so unparalleled in beauty and wisdom, and the sister of a great king, she become so dishonorable and wicked."</said></p>
+         <p>The emperor, giving implicit faith to the arch priest's tale, could no longer restrain his fury; and abruptly leaving the arch priest, he rushed into the apartment of the empress, and in the most fierce, ruse, and unmanly manner, dragged the fair <persName>Bellisant</persName> about the chamber by her long and beautiful hair.</p>
+         <p><said>"Alas! my dear lord,"</said> she cried, <said>"hat moves you to this outrage?"</said></p>
+         <pb n="5"/><fw rend="align(center) case(allcaps)"><persName>Valentine</persName> and <persName>Orson</persName>. <hi rend="align(right)">5</hi></fw>
+         <p><said>"Base despicable wretch!"</said> he exclaimed, <said>I am but too well informed of your infamous proceedings;"</said> then dashing her with violence against the ground, he left her speechless.</p>
+         <p>The attendants of the empress finding her bleeding and senseless upon the floor, uttered loud screams, which presently brought all the nobles of the court into the chamber of the empress. Every one pitied the suffereings of their amiable queen; and the state councellors demanded an audience of the emperor, to represent to him the wrongs he had done to an honorable lady, in whom no one had ever precieved a fault. But the emperor was mad with passion, which the arch priest continued artfully to inflame, and to the reprehensions of his state councellors, he answered, <said>"Let no man presume to defend her who has basely betrayed me. She shall die; and they who interfere in her behald shall partake the dreadful punishment that awaits this wretched and disloyal woman."</said></p>
+         <p>The empress being recovered from her swoon, then fell on her knees, and, with tears, this addressed the emperor:</p>
+         <p><said>"Alas! my lord, take pity on one who never harbored an evil thought against your person or dignity. I shall soon become a mother and I implore your compassion in behalf of my child <!-- There might be punctuation here -->
+         <pb n="6"/><fw rend="case(allcaps) align(center)"><hi rend="align(left)">6</hi>The adventires of</fw>
+         <figure></figure>
+         Let me be imprisoned in some tower till the time of its birth; and then, if your anger be not appeased, do with me what pleaseth you; but, oh! save my child."</said></p>
+         <p>The hard-hearted emperor, bewitched with the false tales of the insidious priest, answered, <said>"Perish thou and thy child, basest of women ! Thy child will be to me no joy, but rather great dishonor."</said></p>
+         <p>The courtiers, preceiving nothing could mitigate the rage of the emperor, removed <persName>Bellisant</persName> from his presence. Her faithful servant <persName>Blandiman</persName>, now threw himself at her feet, exclaiming, <said>"Ah! madam, quit this barbarous monarch, and suffer me to conduct you to your brother, the
+         <pb n="7"/><fw rend="align(center) case(allcaps)"><persName>Valentine</persName> and <persName>Orson</persName>. <hi rend="align(right)">7</hi></fw>
+         good king <persName>Pepin</persName>. Innocent and noble lady, follow my counsel; for  if you stay here, the emperor will bring you to a shameful death."</said></p>
+         <p><said>"No, <persName>Blandiman</persName>,"</said> the queen replied, <said>"I must not follow thy advice: should I steal privately from the court, it might be said I had fled knowing myself to be guilty. Believe me, I had rather die the most cruel death, that bear the blame of that which I am innocent."</said></p>
+         <p>The emperor still loving his queen, could not bring himself to pronounce the sentence of her execution; yet as the base arch priest continually irritated his mind with false accusations against her, he resolved to banish her from his dominions, and immediately commanded her to quit <placeName>Constantinople</placeName>. At the same time he published an edict forbidding all persons on pain of death, to assist or succour the unfortunate lady, allowing her no other attendant that her servant <persName>Blandiman</persName>, whom she had brought with her from <placeName>France</placeName>.</p>
+         <p>Sentence being thus pronounced, the queen and <persName>Blandiman</persName> hastened away. As she passed through the city, she was met by multitudes of people, lamenting the loss of so good and empress. When she had left <placeName>Constantinople</placeName>, <said>"Alas!"</said> cried she, <said>"in what unhappy hour was I born, to fall from so high an estate to so low a condition
+         <pb n="8"/><fw rend="case(allcaps) align(center)"><hi rend="align(left)">8</hi> The adventures of</fw>
+         as I am now in? Woe is me! Now all my happiness is fled: instead of cloth of gold, I am clad in mean attire; my precious stones of inestimable value are all taken from me, and pearls of tears alone now adorn my garments. Ah! my brother, what shouldest thou do with such a woful sister?"</said> As she was thus complaining and weeping with anghish, her servant said to her, <said>"Alas, madam, be not discomforted, but trust in Providence, who will keep and defend you!"</said> Having thus spoken, he espied a fountain, towards which he and his lady took their way.</p>
+         <p>After refreshing themselves at the fountain, they proceeded toeards France. many weary days and nights had they travelled, when, arriving in the forest of <placeName>Orleans</placeName>, the disconsolate empress was so much overcome with gried and fatigue, that she sunk down, and was incapable of preceeding further. Her faithful attendant gathered the fallen leaves and the moss to make a couch for her to rest on, and then hastened swiftly away to seek some habitation where he might procure food and assistance for his unfortunate mistress.</p>
+         <p>During <persName>Blandiman</persName>'s absence, the royal lady was delivered, in the dreary forest, of two beautiful sons. She pressed the lovely infants by turns to her bosom, and shed tears of joy over
+         <pb n="9"/><fw rend="align(center) case(allcaps)"><persName>Valentine</persName> and <persName>Orson</persName> <hi rend="align(right)">9</hi></fw>
+         <figure></figure>
+         them; when, suddenly, a huge bear rushed upon her, and, snatching up one of the babes in its mouth, hastened into the thickest part of the forest. The wretched mother, distracted at the fate of her child, pursued the bear with shrieks and lamentations; till, overcome with anguish and terror, she fell into a swoon near the mouth of the cave into which the bear had borne her infant.</p>
+         <p>It happened that <persName>king Pepin</persName>, accompanied by several great lords and barons of his court, was on that day hunting in the forest of <placeName>Orleans</placeName>, and chanced to pass near the tree where the other son of <persName>Bellisant</persName> lay sleeping on its bed of moss. The kind was astonished with the beauty of the
+         <pb n="10"/><fw rend="case(allcaps) align(center)"><hi rend="align(left)">10</hi> The adventures of</fw>
+         child, who opened his eyes as the king stood gazing on him, and smiling, stretched out his little arms, as if to ask protection.</p>
+         <p><said>"See, my lord,"</said> said <persName>king Pepin</persName>, <said>"This lovely infant appears to solicit my favoe. Here is no one to claim it, and I will adopt it for my own."</said> The king little imagined it was his nephew, the son of his sister <persName>Bellisant</persName>, that he now delivered into the hands of one of his pages, who took the babe to <placeName>Orleans</placeName> to be nursed, and gace it, by the king's order, the name of <persName>Valentine</persName>.</p>
+         <p>Scarcely had the page rode away with the child when the king met <persName>Blandiman</persName>, and demanded with great durprise, what news from <placeName>Constantinople</placeName>. <persName>Blandiman</persName>, bending one knee to the ground, began to relate the disasters of the empress; but upon <persName>king Pepin</persName>'s hearing that the arch priest had accused her of plotting the emperor's death, he flew into the most violent rage against his innocent sister, and said, <said>"Now, by heaven, I cannot believe the royal arch priest would bring a false accusation against any one, and I blame the emperor for sparing the life of his treacherous, disloyal queen : but let her beware how she comes within my power; and hear me, nobles, henceforth it is death for any one to name her in my presence."</said> so say-
+         <pb n="12"/><fw rend="align(center) case(allcaps)"><hi rend="align(left)">12</hi> The adventures of</fw>
+         newws the sorrows of the hapless lady, and determined her to continue in the monastery, devoting the rest of her days to the exercises of religion.</p>
+         <p>The bear</p>
+      </body>
+  </text>
+</TEI>
