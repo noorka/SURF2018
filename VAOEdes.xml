@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archive of Digital Editions of Valentine and Orson</title>
+                <sponsor>
+                    <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+                </sponsor>
+                <funder>
+                    <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+                </funder>
+                <editor>
+                    <name>Anna Kroon</name>
+                </editor>
+                <principal>
+                    <persName>Anna Kroon</persName>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <!-- editionStmt is optional, but recommended by TEI-C guidelines if in case of multiple editions. It is used to group information on a single edition of text -->
+                <edition>Edition statement...</edition>
+            </editionStmt>
+            <publicationStmt>
+                <!-- publicationStmt is mandatory. It groups information concerning the publication or distribution of the digital TEI object; use <sourceDesc> section below to record publication data that may be different than TEI edition, say for an historical source work.  -->
+                <publisher><!-- the person or ogranization responsible for the creation of TEI edition, and who has rights over its production and/or distribution -->Publisher
+                    Name</publisher>
+                <address>
+                    <addrLine><!-- repeat addrLine as needed -->Address Line 1,</addrLine>
+                </address>
+                <availability>
+                    <!-- availability statement clarifies a general copyright and fair use policy governing reuse of the TEI edition -->
+                    <licence target="URL_of_full_license"> Summary statement of which license applies to this TEI file </licence>
+                    <p><!-- okay to add <p> to include other related but necessary blocks of information -->Availablity statement continued...</p>
+                </availability>
+                <date when="2017-01-01"><!-- the date of publication of the TEI edition -->Publication Date</date>
+                <distributor><!-- you can identify organization responsible for the distribution or purchase handling of the TEI edition -->Distributor
+                    of this TEI Edition</distributor>
+                <date><!-- provide a date for update on availability statement if different than publication date -->Availability Date</date>
+            </publicationStmt>
+            <!--  <seriesStmt>
+                seriesStmt is optional. It records the relation between separate documents understood as each part of a series (e.g., collected works (essays, lectures, articles, etc.), document volumes, etc.) by declaring its parent work/identity 
+                <title level="s">Title of Series</title>
+                <respStmt>
+                    name of person responsible for series, e.g., editor or organization 
+                    <resp>ed. by...</resp>
+                    <name>Name of Editor</name>
+                </respStmt>
+                <biblScope unit="vol">biblScope...</biblScope>
+                <idno type="ISSN">idno...</idno>
+            </seriesStmt> -->
+
+            <notesStmt>
+                <!-- notesStmt is optional. It adds multiple notes for additional information or discussion of document -->
+                <note><!-- repeat <note> as needed -->Notes on the text...</note>
+            </notesStmt>
+
+            <sourceDesc>
+                <!-- sourceDesc is mandatory. It describes the source from which an electronic text was derived or generated, typically a bibliographic description <bibl> in the case of a digitized edition of a print text; in the case where the TEI file is born digital,we can include <p>"born digital"</p> -->
+                <bibl>
+                    <title>The renowned history of Valentine and Orson, the two sons of the Emperor of Greece</title>
+                    <pubPlace>Haverhill</pubPlace>
+                    <publisher>Peter Edes</publisher>
+                    <date>1794</date></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- encodingDesc section is optional, but recommended. It groups elements for recording information on the encoding practices used in relation to source work's orginal formatting; this section can range from a brief statement on encoding approach under <projectDesc> to a more detailed overview of editorial decisions under <editorialDesc> -->
+            <projectDesc>
+                <!-- a statment on purpose of TEI edition, project objectives, teams, etc -->
+                <p>A Project Description ...</p>
+            </projectDesc>
+            <samplingDecl>
+                <!-- can use this section to provide details on how text(s) at project level were selected -->
+                <p> Information about text(s) in collection </p>
+            </samplingDecl>
+
+            <editorialDecl>
+                <correction>
+                    <!-- one might wish to note any "corrections" or alterations -->
+                    <p>A Correction statement on any edits made of source work in TEI edition</p>
+                </correction>
+                <normalization>
+                    <!-- we can also record any regularization decisions made to source work in translating into a digital format -->
+                    <p>A Normalization statement on any edits made of source work in TEI edition for reasons of regularizing the work for digital
+                        format</p>
+                </normalization>
+                <quotation>
+                    <p> Information about treatment of quotations (preservation of original quotation marks, etc.) </p>
+                </quotation>
+                <hyphenation>
+                    <p>This edition only retains hyphenation between words that would exist regardless of line breaks. Line break or page break
+                        hyphenation has not be retained.</p>
+                </hyphenation>
+                <interpretation>
+                    <p> Information about any interpretive information added to the text </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <!-- Inside cover has writing on it. To encode or not to encode? -->
+            <pb/>
+            <!-- more handwriting -->
+            <pb/>
+            <!-- empty page -->
+            <pb/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE <lb/>RENOWNED <lb/>HISTORY <lb/>OF <lb/>VALENTINE AND ORSON,</titlePart>
+                    <titlePart type="sub">THE TWO SONS <lb/>OF THE <lb/>EMPEROR OF GREECE.</titlePart>
+                </docTitle>
+                <docImprint>
+                    <pubPlace>HAVERHILL,</pubPlace>
+                    <publisher>PRINTED BY <name>PETER EDES.</name></publisher>
+                    <docDate>MDCCXCIV.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb/>
+        </front>
+        <body>
+            <div type="book">
+                <head>The <lb/>HISTORY <lb/>OF <lb/>VALENTINE AND ORSON.</head>
+                <div type="chapter">
+                    <head>CHAP. I.</head>
+                    <ab>How King Pepin baniſhed his Queen Bertha, and how he gave his ſiſter Belliſant, in marriage to Alexander, emperor of
+                        Conſtantinople.</ab>
+                    <p>WE find it ſet down in ancient Chronicale, that the thrice noble and valiant Pepin, king of France, took to wife Bertha, who
+                        was deſended of royal race. This lady was very fair and wiſe, but much incumbered with troubles, which with great patience ſhe
+                        ſuffered. The chief inſtrument of all the miſchief towards this good queen, was plotted by a falſe old woman who firſt brought
+                        her in <fw type="catch" place="bottom">diſgrace</fw>
+                        <pb n="4"/>
+                        <fw type="header" place="top">4 THE HISTORY OF</fw> diſgrace with the king her huſband, and after to be baniſhed his bed,
+                        while ſhe in a cunning manner brought in her daughter in the queen's ſtead. This old woman having brought her treachery to
+                        effect, for (her daughter was very like Bertha) it forcame to paſs, that king Pepin had two ſons by this maiden, viz. Haufrey
+                        and Henry, both which ſons ſo grieved the king, and waſted the country of France by thier outrages and fury, that they cauſed
+                        the queen to be utterly baniſhed; by which ſhe endured many ſorrowful days; but at laſt ſhe began to recieve confort again,
+                        for ſo it happened, that at the requeſt of divers lords of France, this good queen began to fing favor with the king her
+                        huſband, who when he knew the treachery of that wicked woman againſt her, he much bewailed the miſery ſhe had endured, and
+                        recieved her again with great honor and triumph. The queen reſtored to her former bed, conceived and bore the king a ſon,
+                        called Charlemain the Puiſſant.</p>
+                    <p>This king Pepin had a ſiſter named Belliſant, a woman of great wit and beauty. It chanced ſo that the fam of this lovely
+                        perſonage ſpread abroad, that at laſt Alexander, emperor of Conſtantinople, came <fw type="catch" place="bottom">into</fw><pb
+                            n="5"/><fw type="header" place="top">VALENTINE AND ORSON. 5</fw> into France, accompanied with a gallant troop of his
+                        nobility. This emperor after his arrival, ſuddenly aſſembled all his lords, in their rich habiliments, appointing them to take
+                        their way towards king Pepin's court. King Pepin underſtanding this ſudeen but joygul news, made great preparations for
+                        entertaining this emperor. King Pepin, with all his noble train, went to meet the emperor, with great joy, and conducted him
+                        to the court of France, where fair Belliſant was, and ſhe entertained him with no leſs joy than her brother had done
+                        before.</p>
+                    <p>This marriage being known among all the inhabitants, there was great joy on every ſide. When the time appointed came, theſe two
+                        were eſpouſed in all honor fitting for their eſtates. This marriage feaſt held long, btu being ended, the emperor preprared to
+                        take his leave of his new brother-in-law, and take his way towards Conſtantinople, with his fiar empreſs Beliſant. Theſe
+                        mighty princes name near a port of the ſea, where they were obliged to take leave of each other, which they done with ſuch
+                        tenderneſs, as I am not able to ecpreſs, giving his ſiſter many rich gifts, and then embraced her, with <fw type="sig"
+                            place="bottom">A2</fw><fw type="catch" place="bottom">weeping</fw><pb n="6"/><fw type="header" place="top">6 THE HISTORY
+                            OF</fw> weeping eyes he left her to the mercy of the waves. Then all the lords and ladies took their leave of each other.
+                        The emperor and all his train arrived ſafe at Conſtantinople; at their landing, they were all recieved with great joy and
+                        triumph. But mark what happened to the poor lady Belliſant, who by treaſon and falſe accuſations, was caſt out and
+                        baniſhed.</p>
+                </div>
+                <div type="chapter">
+                    <head>CHAP. II.</head>
+                    <ab>How the arch prieſt of Conſtantinople betrayed the emperor, by making love to fiar Belliſant the empreſs; and how the arch
+                        prieſt, recieving a repulſe from Belliſant, practiſed treaſon againſt her.</ab>
+                    <p>IN Conſtantinople lived and arch prieſt, in whom the emperor put great truſt, and committed to hom all his boſom ſecrets, and
+                        made him governor over all his houſe; as alſo he was principal confeſſor, and one of his greateſt gavorites. The prieſt,
+                        forgetting all the emperor's favors, and being overcome with the beauty<fw type="catch" place="bottom">of</fw><pb n="7"/><fw
+                            type="header" place="top">VALENTINE AND ORSON. 7</fw> of the new empreſs, inordinate luſt ſo far prevailed with him, that
+                        one time ſpying her alone ſitting ſolitary in her chamber, he went in and ſat down by her. At firſt he began to behold her
+                        with a ſmiling countenance, of all which the lady miſtruſted nothing, neither had ſhe any evil thought of him. But at laſt,
+                        after many jeſtures of impurity, he begain to utter his laſcivious thoughts in a preſſing and amorous manner.</p>
+                    <p>His ſpeeches being ended, the lady, out of a grave and prudent carriage, made an excellent anſwer to this wicked preiſt.—
+                            <said>Thou falſe, unjuſt, and deviliſh prieſt! ſtain to thy profeſſion! how dareſt thou open thy mouth to ſuch a maſs of
+                            cillanies as many thereon enſue? Firſt, as I may ſay, againſt the ſacred order; and ſecondly againſt the majeſty of that
+                            emperor that ever nouriſhed thee, and hath raiſed thee to great ginities, and from whom may juſtly proceed the ſentence of
+                            condemnation, both on thee and me, if he but knew thy laſacivious and wicked practices? Let gall, I ſay theſe vile
+                            provocations to luſt, and leave for ever hereafter to ſolicit me in this manner; which if thou proſecuteſt any further,
+                            thou canſt ex<fw type="catch" place="bottom">pect</fw><pb n="8"/><fw type="header" place="top">8 THE HISTORY OF</fw>pect
+                            nothing but a ſhamefil downfall, and a moſt damnable death. Therefore depart, and ſee that you tempt me no
+                        more.</said></p>
+                    <p>This angry farewel of the worthy empreſs, ſtung the prieſt to the very heart, but he durſt make no reply, but craved pardon for
+                        his bold and raſh follies comitted. This being ſore troubled in mind, he reſolved ſeveral days what to do againſt this
+                        innocent lady.</p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>
