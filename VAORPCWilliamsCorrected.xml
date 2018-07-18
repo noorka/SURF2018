@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="i"/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">THE<lb/>ADVENTURES<lb/>OF<lb/>VALENTINE AND ORSON.
+                  <!-- There is a little line between the two headings --></titlePart>
+               <titlePart type="sub">A TALE FOR YOUTH.</titlePart>
+               <titlePart type="sub">ORNAMENTED WITH EIGHT ENGRAVINGS.</titlePart>
+            </docTitle>
+            <figure><!-- OUT THIS HERE --></figure>
+            <docImprint>
+               <pubPlace>BOSTON:</pubPlace>
+               <publisher>PUBLISHED BY R. P. &amp; C. WILLIAMS,</publisher>
+               <pubPlace>No. 8, STATE-STREET.</pubPlace>
+               <docDate>1814.</docDate>
+            </docImprint>
+         </titlePage>
+         <pb n="ii"/>
+         <ab>FRONTISPIECE.</ab>
+         <figure>
+            <caption>King Pepin attacked by Orson. <hi>See page 13.</hi></caption>
+         </figure>
+      </front>
+      <body>
+         <div type="story">
+            <pb n="1"/>
+            <head type="main">THE<lb/>ADVENTURES<lb/>OF<lb/>VALENTINE AND ORSON.</head>
+            <head type="sub">A TALE FOR YOUTH.</head>
+            <head type="sub">ORNAMENTED WITH EIGHT ENGRAVINGS.</head>
+            <figure><!-- PUT PIC HERE!!!!!! --></figure>
+            <ab>BOSTON: <lb/>PUBLISHED BY R. P. &amp; C. WILLIAMS, <lb/>No. 8, STATE-STREET. <lb/>1814.</ab>
+            <pb n="2"/>
+            <!-- blank page with water damage-->
+            <pb n="3"/>
+            <ab>VALENTINE AND ORSON.</ab>
+
+            <p>THE renowned Pepin, king of France, had a sister named Bellisant, who was exceedingly beautiful, and whose hand was demanded in
+               marriage by several kings and princes. The lady Bellisant's choice fell on Alexander, emperor of Constantinople, who came to the court
+               of king Pepin to espouse the princess. Great rejoicings were made on the occasion throughout France; and shortly after the marriage,
+               the emperor took leave of king Pepin, and conducted his lovely bride with great pomp and triumph to the city of Constantinople.</p>
+            <p>The emperor's prime minister and greatest favorite was an arch priest, a selfish and cruel man, who completely governed the emperor,
+               and tyrannized over his subjects. The arch priest observing the gentleness and sweetness of the new empress, began to fear that she
+               would acquire too much influence over the emperor, and wickedly resolved to seek the destruction of the innocent lady. The emperor was
+               of a credulous and suspicious temper, and the arch priest soon <pb n="4"/><fw type="header" place="top">4 THE ADVENTURES OF</fw>found
+               means to infuse into his mind suspicions of the empress. One day when the emperor was alone, the arch priest entered the apartment and,
+               prostrating himself at the emperor's feet, said, <said>"High and mighty king, may heaven guard your majesty from the base attempts of
+                  the wicked and treacherous! I am a holy priest and may not seek the death of any man; nor may I reveal the name of the criminal who
+                  has intrusted to me, in the way of confession, a dreadful secret; but, in the most solemn manner, I conjure your majesty to beware
+                  of the designs of your empress; for that beautiful and dissembling lady in faithless and disloyal, and even now is planning your
+                  death. O mighty emperor! my heart swells with indignation, to think that a lady so unparalleled in beauty and wisdom, and the sister
+                  of a great king, should become so dishonorable and wicked."</said></p>
+            <p>The emperor, giving implicit faith to the arch priest's tale, could no longer restrain his fury; and abruptly leaving the arch priest,
+               he rushed into the apartment of the empress, and in the most fierce, rude, and unmanly manner, dragged the fair Bellisant about the
+               chamber by her long and beautiful hair.</p>
+            <p><said>"Alas! my dear lord,"</said> she cried, <said>"what moves you to this outrage?"</said></p>
+            <pb n="5"/>
+            <fw type="header" place="top">VALENTINE AND ORSON. 5</fw>
+            <p><said>"Base despicable wretch!"</said> he exclaimed, <said>"I am but too well informed of your infamous proceedings;"</said> then
+               dashing her with violence against the ground, he left her speechless.</p>
+            <p>The attendants of the empress finding her bleeding and senseless upon the floor, uttered loud screams, which presently brought all the
+               nobles of the court into the chamber of the empress. Every one pitied the sufferings of their amiable queen; and the state councellors
+               demanded an audience of the emperor, to represent to him the wrongs he had done to an honorable lady, in whom no one had ever percieved
+               a fault. But the emperor was mad with passion, which the arch priest continued artfully to inflame, and to the reprehensions of his
+               state councellors, he answered, <said>"Let no man presume to defend her who has basely betrayed me. She shall die; and they who
+                  interfere in her behalf shall partake the dreadful punishment that awaits this wretched and disloyal woman."</said></p>
+            <p>The empress being recovered from her swoon, then fell on her knees, and, with tears, thus addressed the emperor:</p>
+            <p><said>"Alas! my lord, take pity on one who never harbored an evil thought against your person or dignity. I shall soon become a mother
+                  and I implore your compassion in behalf of my child: <pb n="6"/><fw type="header" place="top">6 THE ADVENTURES OF</fw>
+                  <figure/> Let me be imprisoned in some tower till the time of its birth; and then, if your anger be not appeased, do with me what
+                  pleaseth you; but, oh! save my child."</said></p>
+            <p>The hard-hearted emperor, bewitched with the false tales of the insidious priest, answered, <said>"Perish thou and thy child, basest of
+                  women! Thy child will be to me no joy, but rather great dishonor."</said></p>
+            <p>The courtiers, preceiving nothing could mitigate the rage of the emperor, removed Bellisant from his presence. Her faithful servant
+               Blandiman, now threw himself at her feet, exclaiming, <said>"Ah! madam, quit this barbarous monarch, and suffer me to conduct you to
+                  your brother, the <pb n="7"/><fw type="header" place="top">VALENTINE AND ORSON. 7</fw>good king Pepin. Innocent and noble lady,
+                  follow my counsel; for if you stay here, the emperor will bring you to a shameful death."</said></p>
+            <p><said>"No, Blandiman,"</said> the queen replied, <said>"I must not follow thy advice: should I steal privately from the court, it might
+                  be said I had fled knowing myself to be guilty. Believe me, I had rather die the most cruel death, than bear the blame of that of
+                  which I am innocent."</said></p>
+            <p>The emperor still loving his queen, could not bring himself to pronounce the sentence of her execution; yet as the base arch priest
+               continually irritated his mind with false accusations against her, he resolved to banish her from his dominions, and immediately
+               commanded her to quit Constantinople. At the same time he published an edict forbidding all persons on pain of death, to assist or
+               succour the unfortunate lady, allowing her no other attendant than her servant Blandiman, whom she had brought with her from
+               France.</p>
+            <p>Sentence being thus pronounced, the queen and Blandiman hastened away. As she passed through the city, she was met by multitudes of
+               people, lamenting the loss of so good an empress. When she had left Constantinople, <said>"Alas!"</said> cried she, <said>"in what
+                  unhappy hour was I born, to fall from so high an estate to so low a condition <pb n="8"/><fw type="header" place="top">8 THE
+                     ADVENTURES OF</fw>as I am now in? Woe is me! Now all my happiness is fled: instead of cloth of gold, I am clad in mean attire; my
+                  precious stones of inestimable value are all taken from me, and pearls of tears alone now adorn my garments. Ah! my brother, what
+                  shouldest thou do with such a woful sister?"</said> As she was thus complaining and weeping with anghish, her servant said to her,
+                  <said>"Alas, madam, be not discomforted, but trust in Providence, who will keep and defend you!"</said> Having thus spoken, he
+               espied a fountain, towards which he and his lady took their way.</p>
+            <p>After refreshing themselves at the fountain, they proceeded towards France. Many weary days and nights had they travelled, when,
+               arriving in the forest of Orleans, the disconsolate empress was so much overcome with grief and fatigue, that she sunk down, and was
+               incapable of proceeding further. Her faithful attendant gathered the fallen leaves and the moss to make a couch for her to rest on, and
+               then hastened swiftly away to seek some habitation where he might procure food and assistance for his unfortunate mistress.</p>
+            <p>During Blandiman's absence, the royal lady was delivered, in the dreary forest, of two beautiful sons. She pressed the lovely infants
+               by turns to her bosom, and shed tears of joy over <pb n="9"/><fw type="header" place="top">VALENTINE AND ORSON 9</fw>
+               <figure>
+                  <graphic url="THIS.JPG"/>
+               </figure><lb/>them; when, suddenly, a huge bear rushed upon her, and, snatching up one of the babes in its mouth, hastened into the
+               thickest part of the forest. The wretched mother, distracted at the fate of her child, pursued the bear with shrieks and lamentations;
+               till, overcome with anguish and terror, she fell into a swoon near the mouth of the cave into which the bear had borne her infant.</p>
+            <p>It happened that king Pepin, accompanied by several great lords and barons of his court, was on that day hunting in the forest of
+               Orleans, and chanced to pass near the tree where the other son of Bellisant lay sleeping on its bed of moss. The kind was astonished
+               with the beauty of the <pb n="10"/><fw type="header" place="top">10 THE ADVENTURES OF</fw>child, who opened his eyes as the king stood
+               gazing on him, and smiling, stretched out his little arms, as if to ask protection.</p>
+            <p><said>"See, my lord,"</said> said king Pepin, <said>"This lovely infant appears to solicit my favor. Here is no one to claim it, and I
+                  will adopt it for my own."</said> The king little imagined it was his nephew, the son of his sister Bellisant, that he now delivered
+               into the hands of one of his pages, who took the babe to Orleans to be nursed, and gave it, by the king's order, the name of
+               Valentine.</p>
+            <p>Scarcely had the page rode away with the child when the king met Blandiman, and demanded with great surprise, what news from
+               Constantinople. Blandiman, bending one knee to the ground, began to relate the disasters of the empress; but upon king Pepin's hearing
+               that the arch priest had accused her of plotting the emperor's death, he flew into the most violent rage against his innocent sister,
+               and said, <said>"Now, by heaven, I cannot believe the royal arch priest would bring a false accusation against any one, and I blame the
+                  emperor for sparing the life of his treacherous, disloyal queen: but let her beware how she comes within my power; and hear me,
+                  nobles, henceforth it is death for any one to name her in my presence."</said> so say<pb n="11"/><fw type="header" place="top"
+                  >VALENTINE AND ORSON. 11</fw>ing, he turned back and proceeded towards Orleans.</p>
+            <p>Blandiman, with a heavy heart, searched the forest for his injured mistress, and at length he espied her on the ground, tearing her
+               dishevelled hair and utter piercing cries of grief. <said>"Ah! Blandiman,"</said> she exclaimed, <said>"can there exist in the world a
+                  being more encompassed with grief and sorrow? But an hour since I was the joyful mother of two beautiful babes. A ravenous bear
+                  snatched one from my arms, and some other cruel beast of prey has doubtless devoured the other. At the foot of yonder tree I left it
+                  when I pursued the bear; but no traces of either of my children remain. They are gone! gone forever; and I, wretched mother, have
+                  nothing left but to die. Go, Blandiman, leave me here to perish, and tell the mighty emperor of Constantinople to what a horrible
+                  fate he, by listening to evil counsel, has destined his innocent wife and children."</said></p>
+            <p>Blandiman would not quit the unfortunate queen; and when she became more calm, he prevailed on her to take shelter in a retired
+               monastery that stood on the borders of the forest of Orleans. After some time he communicated to her, his interview with her brother,
+               and the unjust wrath of king Pepin against her: which re<pb n="12"/><fw type="header" place="top">12 THE ADVENTURES OF</fw>newed the
+               sorrows of the hapless lady, and determined her to continue in the monastery, devoting the rest of her days to the exercises of
+               religion.</p>
+            <p>The bear had carried away the infant, bore it to her cave, and laid it down unhurt before her young ones. The cubs, however, did not
+               devour it; but stroked it with their rough paws: and the old bear, perceiving their kindness for the little babe, gave it suck, and
+               nourished it in this manner for the space of a whole year.</p>
+            <p>The child became hardy and robust, and as he grew in strength, began to range the forest, and attack the wild beasts with such fury
+               that they used to shun the cave where he continued to live with the old bear, who loved him with extreme fondness. He passed this kind
+               of life during eighteen years, growing to such wonderful strength that he was the terror of the neighboring country. The name of Orson
+               was given him, because he had been nursed by a bear; and the renown of the wild man spread over all France. He went naked; and uttered
+               no other sounds than a wild kind of a howl, to express either his anger or his joy.</p>
+            <p>King Pepin often entertained a great desire to see the wild man of the woods; and on day rode with his retinue into the forest of
+               Orleans, in hopes of meeting him. The king, leaving his <pb n="13"/><fw type="header" place="top">VALENTINE AND ORSON. 13</fw>train at
+               some distance, rode on and passed near the cave which Orson inhabited. On hearing the sound of the horse's feet, the wild man rushed
+               upon the king, and would have strangled him in an instant, but for a valiant knight, who galloped up and wounded Orson with his sword.
+               Orson then quitted the king, and, running furiously upon the knight, caught him in his arms, and overthrew him and his horse. The king
+               being quite unarmed, could not assist the knight, but rode away to call the attendants to his rescue. However, before they arrived on
+               the spot, the unfortunate knight was torn into pieces, and Orson had fled into the thickest part of the forest, where all their
+               endeavours could not discover him. The noise of this adventure increased every one's terror of the wild man, and the neighboring
+               villages were nearly abandoned by their inhabitants.</p>
+            <p>Valentine, in the mean while, had been educated in all kinds of accomplishments with the king's fair daughter Eglantine. Nothing could
+               exceed the fondness of the young people for each other. Indeed, there never was a lovlier princess than Eglantine, or a more brave and
+               accomplished cavalier than Valentine. The king, observing his inclination for arms, indulged with him armour and horses, and gave <pb
+                  n="14"/><fw type="header" place="top"> 14 THE ADVENTURES OF</fw>him a command in the army that was preparing a march against the
+               Saracens.</p>
+            <p>Valentine soon distingushed himself above all other leaders in battle. He fought near the king's side; and when his majesty was taken
+               by a troop of the Pagans, Valentine rushed through their ranks, slew hundreds of them, and replacing the king on his horse, led him off
+               in triumph. Afterwards, when the Saracen city was besieged, he was the first to scale the walls, and place the Christian standard on
+               the battlements. By this means, a complete victory was obtained, and peace restored to France.</p>
+            <p>Valentine, having conquered the Saracens, returned to the court of king Pepin, and was received with loud acclamations by the people,
+               and joyfully welcomed by the princess Eglantine. The distinctions and favors showered on him, raised the envy and hatred of Henry and
+               Haufray, the king's sons, who plotted together to destroy Valentine. The same day king Pepin presented Valentine to his nobles, saying,
+                  <said>"My lords, this brave youth saved my life, and rescued his country from the Saracens: I therefore now create him earl of
+                  Clerimont."</said> Haufray and Henry were more and more irritated against Valentine by this new and honorable distinction, and <pb
+                  n="15"/><fw type="header" place="top">VALENTINE AND ORSON. 15</fw>they determined to watch closely for some opportunity of effecting
+               his destruction.</p>
+            <p>It happened very shortly after the return of Valentine from his victory over the Saracens, that a petition was presented to the kinG by
+               a deputation of peasants, praying relief against Orson, the wild man of the woods; the fear of whom was now become so great that the
+               peasants dared not go out to till their fields, not the shepherds to watch their flocks. The king immediately issued a proclamation,
+               saying, if any man would undertake to bring Orson, alive or dead, to the city, he should receive a thousand marks of gold.</p>
+            <p><said>"Sire,"</said> said Henry, <said>"I think no person is so proper to undertake this enterprise as the foundling Valentine, on whom
+                  your majesty lavishes such great favor. Perhaps, if he conquers the naked savage with his sword, you will not think it too much to
+                  reward him with the hand of our sister Eglantine."</said></p>
+            <p>To this the king replied with a frown, <said>"Away! for thy speech betrays thy envy."</said></p>
+            <p>Valentine, fixing a stern look on the malicious brother, said, <said>"You give this counsel to encompass my death. Be it so. Know that
+                  I will not fail of victory here also. I will go without delay, and alone, to conquer the savage man."</said></p>
+            <pb n="16"/>
+            <fw type="header" place="top">16 THE ADVENTURES OF</fw>
+            <p><said>"No, Valentine,"</said> said the king; <said>"you shall not rush upon destruction to gratify the ill will of evil minded
+                  persons."</said></p>
+            <p><said>"Pardon me, my liege,"</said> replied Valentine: <said>"it concerns my honor that I go. I will encounter this danger, and every
+                  other, rather than not prove myself worthy of your majesty's favor and protection. To-morrow morning I will depart for the forest at
+                  the break of day."</said></p>
+            <p>When the princess Eglantine heard of Valentine's determination, she sought to divert him from his purpose; but finding him inflexibly
+               resolved to attack the wild man, she adorned him with a scarf embroidered with her own hands, and then retired to her chamber, to pray
+               for his safety.</p>
+            <p>At the first dawn of morning, Valentine arose; and putting on his armour, having his shield polished like a mirror, he departed for the
+               forest; and being arrived there he alighted, and, tying his horse to a tree, penetrated inot the thickest part of the wood in search of
+               Orson. He wandered about a long time in vain; and being come near the mouth of a large cave, he thought that might be hiding place of
+               the wild man. Valentine then climbed up a high tree near the cave; and scarcely was he seated <pb n="17"/><fw type="header" place="top"
+                  rend="case(allcaps) align(center)">Valentine and Orson<hi rend="align(right)">17</hi></fw> among the branches when he heard Orson's
+               roar in the forest.</p>
+            <p>Orson had been hunting, and came with a swift pace, bearing a buck, he had killed, upon his shoulders. Valentine could not help
+               admiring the beauty of his person, the grace and freedom of his motions, and his appearance of strength and agility. He felt a species
+               of affection for the wild man, and wished it was possible to tame him without having recourse to weapons.</p>
+            <p>Valentine now tore off a branch of the tree, and threw it at Orson's feet; who looked up and espying Valentine in the tree, uttered a
+               howl of fury, and darted up the tree like lightning. Valentine as quickly descended on the other side. Orson seeing him on the ground,
+               leaped down, and, opening his arms, prepared, in his usual manner, to rush upon and overthrow his antagonist; but Valentine holding up
+               a polished shield, Orson suddenly beheld, instead of the person he meant to sieze, his own naked, wild, and terror-striking figure.
+               Upon Valentine's lowering the sheild, he again saw his enemy, and with a cry of transport again prepared to grasp him in his arms. The
+               strength of Orson was do very great, that Valentine was unable to defend himself without having recourse to his sword. When Orson
+               received a wound from the <pb n="18"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi rend="align(left)">18</hi>
+                  The adventures of</fw> sword, he uttered loud shrieks of anger and surprise, and indtantly tearing up by the roots a large tree,
+               suriously attacked Valentine.</p>
+            <p>A dreadful fight now ensued between these two brothers, and the victory was a long time doubtful: Orson receiving many dreadful wounds
+               from the sword of Valentine, and Valentine with great difficulty escaped from being crushed to death beneath the weighty club of Orson.
+               Just at this time the bear who had nursed Orson, and who was now in the cave, hearing his cries of rage, cameout to see what was the
+               matter with her favorite. Valentine perceiving her approach, aimed a blow at her with his sword, which would probably have killed her
+               on the spot, had not Orson rushed forward, and throwing one arm round the neck of the bear, he with the other hand supplicated for
+               mercy for his old and only friend. Valentine was greatly affected with this generous action, and, laying aside his sword, made signs
+               that he would not hurt the bear; and in token of kindness brought some grapes, and a little bottle of strong liquor, which he had
+               seposited near for his own refreshment in case of need, and presented them to Orson.</p>
+            <p>Orson no sooner tasted the delicious flavor of the fruit, than he gace it to the bear, and afterwards let her dring the strong liquor,
+               with both <pb n="19"/><fw type="header" place="top" rend="align(center) case(allcaps)">Valentine and Orson. <hi rend="align(right)"
+                     >19</hi></fw>
+               <figure/> of which she seemed much pleased; while Orson delighted to see her make such a plentiful repast, threw his arms round her and
+               embraced her; and the bear, desirous to testify her affection for him, stroked him with her huge paw, and uttered a gentle growl, as if
+               to express her satisfaction in his caresses.</p>
+            <p>Valentine now made many signs to Orson persuading him to go with him, where he should be fed and clother, and treated with the greatest
+               kindness: but Orson rejected all his offers with <pb n="20"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi
+                     rend="align(left)">20</hi>The adventures of</fw> auger and contempt, making signs that he would not quit his belived bear, nor
+               his wild life in the woods. But it happened that the strong liquor which the bear had drank so greedily from Valentine's bottle, caused
+               her death; and soon after testifying her love of Orson in the manner we have sescribed, she faintly howled, and fell dead on the
+               ground.</p>
+            <p>Orson stood for a few moments motionless with alarm and amazement: then supposeing his ancient friend might be only asleep, he stooped
+               and endeavoured to rouse her; but finding all his efforts ineffectual, his grief is scarcely to be described. He threw himself upon the
+               body, and uttered piercing shrieks of distress. At length he suddenly sprang up from the ground, and, approaching Valentine, made signs
+               that he would now be his; and while the tears ran down his cheeks for the loss of his bear, he suffered Valentine to bind his hands,
+               and unresistingly followed his conductor.</p>
+            <p>Valentine took his way towards Orleans; but wherever he passed, the people, perceiving the wild man, ran inot their houses and hid
+               themselves. On arriving at an inn where Valentineintended resting during the night, the terrified inhabitants fastened the doors, and
+               would not suffer them to enter. Valentine made signs <pb n="21"/><fw type="header" place="top" rend="align(center) case(allcaps)"
+                  >Valentine and Orson.<hi rend="align(right)">21</hi></fw>
+               <figure/> to Orson, who placing his shoulder against the door, forced it open in an instant; upon which the people of the inn all ran
+               out at the door and would not venture to return. A great feast was in preparation, and there were plenty of fowls and good provisions
+               roasting at the fire. Orson tore the meat off the spit with his hands, and devoured it greedily: and espying a caldron of water, he put
+               his head into it and drank like a horse.</p>
+            <p>In the morning Valentine resumed his journey, leading Orson as before. On arriving at the city, the inhabitants shut their doors, and
+               ran into the highest rooms to gaze upon the wild man. Being come to the outer court of king Pepin's palace, the porter in a great
+               fright barred the gate with heavy chains and bars of <pb n="22"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi
+                     rend="align(left)">22</hi> The Adventures of</fw> iron, and would not be prevailed on to open it. After soliciting admittance for
+               some time, and being still denied, Valentine made signs to Orson, who tearing up on of the large stone posts that stood by, shattered
+               the gate to pieces.</p>
+            <p>The queen, the princess Eglantine, and all their attendants, fled to hide themselves, when they heard that Orson was arrived; and
+               Valentine had the greatest difficulty to persuade them to believe that Orson was no longer furious and savage as he had been in the
+               woods. At length the king permitted him to be brought in: and the whole court soon gathered in a crowd in the apartment, and were much
+               amused by this wild actions and gestures, although very cautious not to come near to him. On Valentine's making signs, he kissed the
+               king's robe, and the hand of the princess Eglantine: for Orson had now become so attached to Valentine that he would obey him in all
+               things, but would suffer no other person to attempt to control him. If Valentine went for a moment out of his sight, he would utter
+               cries of distress, and overturn every one that stood in the way, while he ran about the palace in search of him. And he slept at night
+               in Valentine's chamber upon the floor; for he could not be prevailed on to lie on a bed.</p>
+            <pb n="23"/>
+            <fw type="header" place="top" rend="align(center) case(allcaps)">Valentine and Orson. <hi rend="align(right)">23</hi></fw>
+            <p>Very soon after the capture of Orson, a herald appeared at the court of king Pepin, from the duke of Aquitain, summoned all true
+               knights to avenge the cause of the lady Fezon, daughter to the noble duke, who was held in cruel captivity by Agramont, the green
+               knight: ther herald proclaiming, that whoever should conquer the green knight should recieve the hand of the lady Fezon in marriage,
+               together with a princely drowry.</p>
+            <p>This green knight was so famous for his cruelty and his victories, that the young lords of the court all drew back and seemed unwilling
+               to enter the lists; for it was known that he was defended by enchantments, and that it was his practice to hand upon a tree all the
+               knights whom he had defeated. Valentine, however, offered himself without hesitation, and engaged to get ready and depart the next
+               morning.</p>
+            <p>The princess Eglantine secretly resolved, if possible, to prevent the destruction of her beloved Valentine, by combating the green
+               knight herself. She had been accustomed to fence and ride, and was greatly accomplished in all the manly exercises. She contrived to
+               steal away the armour of Valentine while he slept, and equipping herself in it, mounted a fiery courser; and, attended only by her
+               favorite maid, in quailty of <pb n="24"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi rend="align(left)"
+                     >24</hi> The Adventures of</fw> a page, she proceeded to the castle which the green knight inhabited, and where he kept the lady
+               Fezon a prisoner.</p>
+            <p>Valentinemean while missing his armour when he arose at the dawn of day, and learning that the princess had taken it and was gone on
+               this perilous enterprise, was almost distracted with his terrors for her safety. He ordered his horse to be prepared; and, followed by
+               Orson, set out in search of the princess.</p>
+            <p>Haufray and Henry, disappointed in their former purpose, now resolved to waylay and kill Valentine. Accordingly, in a narrow alley of a
+               dark wood, they sprang upon him and seized him before he had power to draw his sword. Orson chanced to be a little way behind; but on
+               hearing Valentine's voice, he rushed upon Henry, who was about to stab Valentine in the back, and siezed him in his arms. Orson's grasp
+               almost crushed Henry to death, and Valentine would have killed Haufray; but first tearing the masks from thier faces, and seeing they
+               were the king's sons, he left them to the shame and disgrace their base conduct would bring upon them. He had some difficulty to
+               prevail on Orson to let them live; but having prevailed, they left the wicked brothers in the wood, and continued their journey,
+               fortunately arriving at <pb n="25"/><fw type="header" place="top" rend="align(center) case(allcaps)">Valentine and Orson. <hi
+                     rend="align(right)">25</hi></fw>
+               <figure/> the castle of Agramont the green knight, just as the princess Eglantine was almost overpowered in the combat.</p>
+            <p>Valentine now rushed with dreadful fury upon the green knight, and the fight was long and equal. At length Argamont demanded a parley.
+                  <said>"Knight,"</said> said he to Valentine, <said>"thou art brave and noble. Behold yonder, hanf twenty knights whom I have subdued
+                  and executed;— such will be thy fate, I give thee warning."</said></p>
+            <p><said>"Base traitor,"</said> replied Valentine, <said>I fear thee not: come on; I defy thee."</said></p>
+            <p><said>"First,"</said> rejoined the green knight, <said>"fetch me yonder shield; for, in pity to thy youth, I tell thee, unless thou
+                  can'st remove that shield, thou <pb n="26"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi rend="align(left)"
+                        >26</hi> The Adventures of</fw> ne'er canst rescue the lady Fezon, or conquer me."</said></p>
+            <p>Valentine approached the sheild; but, in spite of all his efforts, he could not loosen it from the tree, though it appeared to hang but
+               on a slender branch. Valentine, breathless with his exertions to pull down the sheild, stood leaning against the tree, when Agramont,
+               with a loud laugh exclaimed, <said>"Fly and save thyself, fair knight; for, since thou canst not move the sheild, thou art not destined
+                  to be my victor. Further, know, there is no one living who can subdue me, except he be the son of a mighty king, and yet was suckled
+                  by a wild beast."</said> Valentine started on hearing these latter words, and ran to Orson, who had been all this time employed in
+               gazing with looks of delight and admiration on the beautiful lady Fezon. Valentine led him to the enchanted sheild; which on Orson's
+               raising his arms towards it, dropped instantly from its place. A loud blast of wind now rushed through the trees, the ground rocked
+               beneath their feet, and the green knight trmbled and turned pale; then gnashing his teeth, he seized his sword, and attacked Orson with
+               desperate fury. At the first blow Argamont's trusty sword broke in pieces upon the enchanted sheild. Next he caught up a battle axe,
+               which as instantly snap- <pb n="27"/><fw type="header" place="top" rend="align(center) case(allcaps)">Valentine and Orson. <hi
+                     rend="align(right)">27</hi></fw> ped in two. He then called for a lance, which shivered to atoms in the same manner. Furious with
+               these defeats, he threw aside his weapons, and trusting to his wonderful strength, attempted to grasp Orson in his arms; but Orson,
+               seizing him on the ground, and would have instantly destroyed him, had not Valentine interposed to save his life. Orson continued to
+               hold him down till some chains were brought; when, in despite of the furious struggled of the green knight, Orson bound him in fetters
+               to lead him away a prisoner.</p>
+            <p>Argamont, finding himself entirely subdued, addressed himself to Valentine, and said, <said>"This savage man is my conquerorl therefore
+                  there must be some mystery in his fate. Hast then to the castle of my brother Farragus, where you will find a brazen head that will
+                  explain to you who he is."</said> Valentine having dispatched a herald to acquaint the duke of Aquirain with the release of his
+               daughter, sent the lday Fexon with the princess Eglantine to the court of king Pepin, while he and Orson proceeded to the castle of the
+               giant Ferragus. This castle was guarded by two lions, who roared with rage against Valentine; but when Orson appeared they lay down and
+               crouched beneath his feet. On entering the castle a little dward approached them, <pb n="28"/><fw type="header" place="top"
+                  rend="align(center) case(allcaps)"><hi rend="align(left)">28</hi> The Adventures of</fw> and conduced them to a chamber abounding
+               with gold, rubies, sapphires, and other precious stones; in the centre there were four pillars of jasper, two of which were as yellow
+               as the finest gold, a third more green than grass, and a fourth more red then a flame of fire. Between these pillars was an emerald of
+               amazing value; and in the midst the brazen head rested upon a rich pedestal. Before the pedestal stood and enormous giant, who lifted
+               his club to forbid their approach; but Orson seized him by the middle, and bore him from the chamber to a dungeon, where he secured
+               him. Valentine fixed his eyes upon the head, anxious to hear what it would say concerning his birth. At length, when Orson had
+               returned, it spake thus:</p>
+            <p><said>"Thou, O renowned knight, art called Valentine the Brave, and art the man destined to be the husband of the princess Eglantine of
+                  France, thou art son to the emperor of Greece, and thy mother is Bellisant, sister to king Pepin of France. She was unjustly
+                  banished from her throne, and took refuge in a monastery, where she has resided these twenty years.</said></p>
+            <p><said>"The wild man who hath so long accompanied thee, is thy brother. You were both born in the forest of Orleans. Thou wert found and
+                  brought up under the care of king Pepin thy uncle, but <pb n="29"/><fw type="header" place="top" rend="align(center) case(allcaps)"
+                     >Valentine and Orson. <hi rend="align(right)">29</hi></fw>
+                  <figure/> thy brother was stolen and nursed by a bear. Proceed, Valentine, to France, where thou wilt find the innocent empress, thy
+                  hapless mother: at the moment when she embrases thy brother, speech will be given to him. Away, and prosper! These are the last
+                  words I shall utter. Fate has decreed, that when Valentine and Orson enter this chamber, my power ends."</said></p>
+            <p>Having thus spoken, the brazen head fell from its pedestal; thrunder shook the foundation of the castle: they were surrounded with
+               thick darkness; and when the light again burst upon them, they found themselves on an open plain, and no traces of the castle remained.
+               The litt swarf, whose name was Pacolet, at the <pb n="30"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi
+                     rend="align(left)">30</hi> The Adventures of</fw> same time appeared before them on a winged horse, and said, <said>"Noble
+                  youths, I go before you to the court of king Pepin to prepare your royal parents who are already there, for your reception."</said>
+               And instantly Pacolet mounted into the air on his winged horse, and was presently out of sight. Valentine now fell upon the bosom of
+               his brother Orson, and Orson upon his: they embraced each other with the utmost affection, and joyfully proceeded towards France.</p>
+            <p>While these transactions were passing, the emperor of Constantinople had lived in great affliction for the loss of his queen. The
+               wicked arch priest continued to represent her as the vilest of women, and to abuse the emperor's confidence in him, till he was on his
+               death-bed; when, repenting of his treachery, he sent for the emperor, and confessed before the whole court that he had basely slandered
+               the amiable empress.</p>
+            <p>Nothing could exceed the emperor's grief. He immediately set out with all his nobles for France, to implore king Pepin to assit him in
+               searching for the injured Bellisant. In every town on his journey he caused her innocence to be proclaimed, and offered an immense
+               reward to any one who should bring tidings of her to the court of king Pepin</p>
+            <pb n="31"/>
+            <fw type="header" place="top" rend="align(center) case(allcaps)">Valentine and Orson. <hi rend="align(right)">31</hi></fw>
+            <p>It happened that Blandiman, who was buying provisions for the monastery at Orleans, as the emperor passed through, heard the
+               proclaimation, and hastened with the tiding to his mistress. The empress, overjoyed to have her innocence made known, quitted the
+               monastery and went to the palace of her brother, where she was recieved with shouts of triumph—king Pepin and the emperor bothing
+               falling at her feet, to implore forgiveness for having believed so unjustly of her.</p>
+            <p>Scarcely had the reconciliation passed, and the empress related her sorrowful history, when the dwarf Pacolet appeared on his winged
+               horse to announce the wonderful declaration made by the brazen head, and the approach of the royal brothers. At these tidings the
+               empress thought herself the happiest of women; but the emperor could not forbear to shed tears, when he remembered all the dangers and
+               sufferings he had caused to his amiable queen and his princely sons.</p>
+            <p>The noble youths now presented themselves to their parents; and no sooner had the empress Bellisant thrown her arms around the neck of
+               her son Orson, than the faculty of speech was given to him, and he expressed his duty and affection to his parents and uncle, in terms
+               of <pb n="32"/><fw type="header" place="top" rend="align(center) case(allcaps)"><hi rend="align(left)">32</hi> The adventures of</fw>
+               such grace and propriety as at once astonished and delighted the whole court. The duke of Aquitain, having already come to the palace
+               of king Pepin to congratulate his daughter on her deliverance from Argamont the green knight, now took the hand of Orson, and presented
+               him to the lady Fezon as her future husband, king Pepin at the same time joining the hands of Valentine and the princess Eglantine.
+               Splendid preparations were immediately made for the celebration of these nuptials; and during the whole month nothing was to be heard
+               of throughout France but tilts and tournaments, feasts and balls, fire-workd and illuminations, with every other kinf of splendid
+               magnificent entertainments.</p>
+            <ab rend="align(center) slant(italic) case(allcaps)">Finis.</ab>
+            <!-- there is a line here -->
+            <ab rend="slant(italic)">Thomas G. Bangs, Printer.</ab>
+            <pb/>
+            <!-- blank page with some handwriting on it -->
+            <pb/>
+            <!-- I think this would technically be back matter??? but also and ad? -->
+         </div>
+      </body>
+   </text>
+</TEI>
