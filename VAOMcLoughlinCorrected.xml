@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="1"/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="desc">AUNT KATE'S<lb/>SERIES</titlePart>
+               <titlePart type="main">VALENTINE AND ORSON</titlePart>
+            </docTitle>
+            <docImprint>
+               <publisher>Mc LOUGHLIN BROS.</publisher>
+               <pubPlace>NEW-YORK.</pubPlace>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <!-- There is some hand written stuff at the top.  -->
+         <pb n="2"/>
+         <figure>
+            <caption>THE EMPEROR'S CRUELTY TO BELLISANT.</caption>
+         </figure>
+         <ab>Long years ago, an Emperor,<lb/>A man of might and fame;<lb/>Married a wife, and fair, was she,<lb/>And Bellisant her name.</ab>
+         <pb n="3"/>
+         <figure>
+            <caption>ORSON CARRIED AWAY BY THE BEAR.</caption>
+         </figure>
+         <ab>And true and happy were their lives,<lb/>Until an envious man;<lb/>A courtier, high in place and trust,<lb/>An evil tale began.</ab>
+         <pb n="4"/>
+         <fw type="header" place="top">4 Valentine and Orson.</fw>
+         <ab>'Twas said, this lady did not love,<lb/>Her royal husband dear;<lb/>And thus an honest wife was made,<lb/>Untruthful to appear.</ab>
+         <ab>The Emperor believed the tale,<lb/>And drove her from his side;<lb/>And through the cruel forest glades,<lb/>She wandered far and
+            wide.</ab>
+         <ab>Without a friend, without a guide,<lb/>The hapless lady goes;<lb/>Unarmed, except with innocence,<lb/>All burdened with her woes.</ab>
+         <ab>To Pepin's court her steps were bent,<lb/>Her brother HE, and king,<lb/>Of mighty France, in that old time,<lb/>Of which I now shall
+            sing.</ab>
+         <ab>And as she fled, weighed down by grief,<lb/>And sense of cruel scorn;<lb/>Lo! in the forest, two fair sons,<lb/>To Bellisant were
+            born.</ab>
+         <pb n="5"/>
+         <fw type="header" place="top">Valentine and Orson. 5</fw>
+         <ab>All weak and suffering she lay;<lb/>Yet with a mother's joy,<lb/>She pressed her babies to her breast,<lb/>And kissed each lovely
+            boy.</ab>
+         <ab>And now, with her returning strength,<lb/>The poor, unhappy wife,<lb/>Began to seek her brother's court,<lb/>And pray for health and
+            life.</ab>
+         <ab>One day, while her attendant went<lb/>For food, a great she-bear,<lb/>Sprung from a copse, and bore away<lb/>ONE child unto its
+            lair.</ab>
+         <ab>Poor Bellisant pursued the beast,<lb/>And tore her lovely hair;<lb/>Ah me, alas! when she returned,<lb/>The OTHER was not there.</ab>
+         <ab>Then up and down the forest drear,<lb/>She vainly sought relief;<lb/>Till at a convent's friendly gate,<lb/>She sank, o'ercome with
+            grief.</ab>
+         <pb n="6"/>
+         <figure>
+            <caption>VALENTINE FOUND BY KING PEPIN.</caption>
+         </figure>
+         <ab>And long in sorrow there she dwelt,<lb/>For many a weary year;<lb/>Believing cruel Death had borne,<lb/>Away her children dear.</ab>
+         <pb n="7"/>
+         <figure>
+            <caption>YOUNG ORSON PLAYING WITH THE BEARS.</caption>
+         </figure>
+         <ab>Now Pepin chanced, that very day,<lb/>To hunt with all his train;<lb/>In that same wood, and found the child,<lb/>Ere she came back
+            again.</ab>
+         <pb n="8"/>
+         <fw type="header" place="top">8 Valentine and Orson.</fw>
+         <ab>Said Pepin, <said>"this is very strange,<lb/>This boy shall now be mine;<lb/>He'll make a pretty play-fellow,<lb/>For litle
+               Eglantine."</said></ab>
+         <ab><said>"And by my faith,"</said> the king went on,<lb/><said>"I never wrote a line;<lb/>Yet I will rhyme his name with hers,<lb/>And call
+               him Valentine."</said></ab>
+         <ab>Thus reared within that noble court,<lb/>A knight he soon became;<lb/>Whose courtesy and valor blazed,<lb/>Upon the roll fame.</ab>
+         <ab>And all his noble deeds were done,<lb/>In praise of Eglantine;<lb/>Who, though her brothers hated him,<lb/>Loved gentle Valentine.</ab>
+         <ab>And now, how fared the tender babe,<lb/>Borne off while still alive?<lb/>The wild bear nursed him tenderly,<lb/>And nobly did he
+            thrive.</ab>
+         <pb n="9"/>
+         <fw type="header" place="top">Valentine and Orson. 9</fw>
+         <ab>Trough all the country round about,<lb/>As Orson, he was known;<lb/>And with him roamed his brother bear;<lb/>He never went alone.</ab>
+         <ab>And Pepin's knights, though armor-clad,<lb/>With sword and lance complete,<lb/>Whene'er they fronted Orson's might,<lb/>Were crushed with
+            sore defeat.</ab>
+         <ab>Then said the gentle Valentine;<lb/><said>"I'll seek this monster, when<lb/>He thinks himself secure and safe,<lb/>I'll beard him in his
+               den."</said></ab>
+         <ab>But scarcely had he reached the wood,<lb/>When Orson came in sight;<lb/>And man and beast, with horrid yells,<lb/>Rushed fiercely on the
+            knight.</ab>
+         <ab>High in the air, a mighty tree,<lb/>Does Orson lightly wield;<lb/>Then drops it, with fearful clang,<lb/>Upon his foeman's shield.</ab>
+         <pb n="10"/>
+         <figure>
+            <caption>THE COMBAT BETWEEN VALENTINE AND ORSON.</caption>
+         </figure>
+         <ab>But when he saw his savage face,<lb/>Look from the glitt'ring round;<lb/>With fright and horror overcome,<lb/>He grovelled on the
+            ground.</ab>
+         <pb n="11"/>
+         <figure>
+            <caption>ORSON CHAINING AGRAMONT.</caption>
+         </figure>
+         <ab>Then Valentine, with lifted blade,<lb/>And fiercely gleaming eye;<lb/>Unto the kneeling monster said,<lb/><said>"Yield quickly, or you
+               die!"</said></ab>
+         <pb n="12"/>
+         <fw type="header" place="top">12 Valentine and Orson.</fw>
+         <ab>So Valentine was conqueror.<lb/>Brave Orson owned his might;<lb/>And lovingly he followed him,<lb/>And served him day and night.</ab>
+         <ab>And thus we see how time and tide,<lb/>Brings many a wondrous thing;—<lb/>One brother reared by savage bears,<lb/>The other by a
+            king.</ab>
+         <ab>Now in that land a wicked knight,<lb/>Called Agramont, did dwell;<lb/>Who, by his strength, and magic arts,<lb/>A lady did compel,</ab>
+         <ab>To languish in a prison dark,<lb/>And none could set her free;<lb/>Not even Valentine prevailed,<lb/>With all his bravery.</ab>
+         <ab>But Orson overcame the knight,<lb/>And bound him with a chain;<lb/>And set the lady free, to see,<lb/>The pleasant sun again.</ab>
+         <pb n="13"/>
+         <fw type="header" place="top">Valentine and Orson. 13</fw>
+         <ab>And there, within the castle hall,<lb/>They saw a head of brass;<lb/>That told the wonders of their birth,<lb/>And how it came to
+            pass;</ab>
+         <ab>That in a convent lonely, pined,<lb/>Their mother Bellisant;<lb/>And that the King and Queen of France,<lb/>Their uncle were, and
+            aunt.</ab>
+         <ab>And how the courtier had confessed,<lb/>His guilt with groans and tears;<lb/>And the sad Emperor had sought<lb/>His wife through weary
+            years.</ab>
+         <ab>Then quickly to the convent flew,<lb/>These noble brothers, blest,—<lb/>To lead their mother back again,<lb/>To her dear husband's
+            breast.</ab>
+         <ab>While once again, to Pepin's court,<lb/>The brothers did repair;<lb/>To claim for Valentine, the hand<lb/>Of Eglantine the fair.</ab>
+         <pb n="14"/>
+         <figure>
+            <caption>THE BROTHERS CONSULTING THE HEAD OF BRASS.</caption>
+         </figure>
+         <ab>And Orson, in good time became,<lb/>A brave and noble knight;<lb/>As famed for wisdom in the tent,<lb/>As courage in the fight.</ab>
+         <pb n="15"/>
+         <figure>
+            <caption>THE EMPEROR FINDS HIS LONG-LOST WIFE.</caption>
+         </figure>
+         <ab>And wedded to the lovely maid,<lb/>He'd saved from dungeon drear;<lb/>Lived honored at his father's court,<lb/>Through many a happy
+            year.</ab>
+      </body>
+      <back>
+         <pb n="16"/>
+         <!-- There is a back page advertisment -->
+      </back>
+   </text>
+</TEI>
