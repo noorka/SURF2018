@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Marquis of Carabas' Picture Book</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="1"/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The MARQUIS of<lb/>CARABAS his</titlePart>
+               <figure/>
+               <titlePart type="main">PICTURE<lb/>BOOK</titlePart>
+            </docTitle>
+         </titlePage>
+         <!-- THERE ARE A COUPLE OF LEFT OUT PAGES HERE -->
+         <pb n="5"/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">THE<lb/>MARQUIS OF CARABAS'<lb/>PICTURE BOOK</titlePart>
+               <titlePart type="desc">CONTAINING<lb/>PUSS IN BOOTS<lb/>OLD MOTHER HUBBARD<lb/>VALENTINE AND ORSON<lb/>THE ABSURD A B
+                  C<lb/>WITH<lb/>THIRTY-TWO PAGES OF ILLUSTRATIONS BY WALTER CRANE.<lb/>PRINTED IN COLOURS BY EDMUND EVANS.</titlePart>
+            </docTitle>
+            <docImprint>
+               <pubPlace>LONDON</pubPlace>
+               <publisher>GEORGE ROUTLEDGE AND SONS</publisher>
+               <pubPlace>THE BROADWAY, LUDGATE<lb/>NEW YORK: 416 BROOME STREET</pubPlace>
+            </docImprint>
+         </titlePage>
+      </front>
+      <!-- Many pages not included -->
+      <body>
+         <div type="story">
+            <pb n="40"/>
+            <ab>ONCE on a time an Emperor, a man of might and fame,<lb/>Married a wife, and fair was she, and Bellisant her name;<lb/>And fair and
+               happy were their lives, until an evil man<lb/>(he was the High Priest of the Court) an evil tale began,<lb/>Of how the lady was not
+               true unto her husband dear:<lb/>The Emperor believed the tale, and rose up in great fear,<lb/>And drove poor Bellisant away; in haste
+               and dire mischance<lb/>She took her way to Pepin's Court (her brother, King of France)</ab>
+            <figure/>
+            <fw type="footer" place="bottom">1</fw>
+            <pb n="41"/>
+            <figure/>
+            <ab>And as she fled, weighed down by grief and sense of cruel scorn,<lb/>Lo, in the forest two fair sons to Bellisant were born;<lb/>But
+               while her servant went to buy some food, a great she-bear<lb/><lb/>Poor Bellisant ran after her, with many a sigh and moan;<lb/>In
+               vain,—and when she turned again, the other child was gone!</ab>
+            <fw type="footer" place="bottom">2</fw>
+            <pb n="42"/>
+            <pb n="43"/>
+            <pb n="44"/>
+            <figure/>
+            <ab>Now, Pepin chanced that very day to hunt with all his train<lb/>In that same wood, and found the child ere she came back
+               again;<lb/>And took him home, and brought him up, and gave him all thing fine—<lb/>Apparel, horses, and a name,—so he was
+               VALENTINE.<lb/>And brave and fair he grew,—King Pepin's daughter loved him well;<lb/>The sons were jealous. Now will I his brother's
+               story tell.</ab>
+            <fw type="footer" place="bottom">3</fw>
+            <pb n="45"/>
+            <pb n="46"/>
+            <!-- start weird two pages -->
+            <ab>The she-bear and her savage cubs, they saved the child alive,<lb/>And nursed him well, and tended him,—well did he grow and
+               thrive,<lb/>They called him ORSON; in the woods he lived, a strong wild man,<lb/>And all he fought he killed with ease; and so a wicked
+               plan<lb/>Was made by Pepin's sons for getting rid of Valentine,<lb/>Whom they induced to fight wih him, by flattering words and
+               fine.<lb/>But Valentine was conqueror, and Orson owned his might,<lb/>And served and followed him alway: and they were squire and
+               knight.</ab>
+            <figure/>
+            <pb n="47"/>
+            <!-- end of weird two pages -->
+            <pb n="48"/>
+            <pb n="49"/>
+            <figure/>
+            <ab>Now, in that land there dwelt a man, the Green Knight he was called,<lb/>Who by his strength and magic arts a lady fair
+               enthralled,<lb/>And kept in a prison dark and strong, and none could set her free;<lb/>Not even Valentine prevailed, with all his
+               bravery.</ab>
+            <fw type="footer" place="bottom">6</fw>
+            <pb n="50"/>
+            <pb n="51"/>
+            <pb n="52"/>
+            <ab>But Orson threw the Green Knight down, and bound him with a chain,<lb/>And set the lady free; both brothers then start off to
+               gain<lb/>The Green Knight's castle-gates,—two roaring lions kept guard there,<lb/>But down they crouched when they beheld the brothers
+               void of fear.</ab>
+            <figure/>
+            <fw type="footer" place="bottom">7</fw>
+            <pb n="53"/>
+            <figure/>
+            <ab>And there within the castle hall they saw a head of brass,<lb/>That uttered marvels,—of their birth, and how it came to pass;<lb/>How
+               in a convent lonely was their mother Bellisant;<lb/>How the King and Queen of France were their uncle and their aunt;<lb/>How the High
+               Priest had confessed his lies, with many tears and groans;<lb/>How the Emperor, their father, was in search of wife and sons.<lb/>So
+               the lost were found, the wrong made right, by all good rule and line;<lb/>They married well, and lived long years—ORSON and
+               VALENTINE.</ab>
+            <fw type="footer" place="bottom">8</fw>
+         </div>
+         <!-- There are more pages here.  -->
+      </body>
+   </text>
+</TEI>
