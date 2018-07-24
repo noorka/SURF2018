@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>The Marquis of Carabas' Picture Book</title>
@@ -15,69 +15,58 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-     <front>
-        <!-- Should the cover go here and the title page? -->
-     </front>
+   </teiHeader>
+   <text>
+      <front>
+         <!-- Should the cover go here and the title page? -->
+      </front>
       <body>
          <pb/>
-         <ab>ONCE on a time an Emperor, a man of might and fame,
-         <lb/>Married a wide, and fair was she, and Bellisant her name;
-         <lb/>And fair and happy were their lives, until an evil man (he was the High Priest of the COurt) an evil tale began,
-         <lb/>Of how the lady was not true unto her husband dear:
-         <lb/>The Emperor believed the tale, and rose up in great fear,
-         <lb/>And drove poor Bellisant away; in haste and dire mischance
-         <lb/>She took her way to Pepin's Court (her brother, King of France)</ab>
-         <figure></figure>
+         <ab>ONCE on a time an Emperor, a man of might and fame, <lb/>Married a wide, and fair was she, and Bellisant her name; <lb/>And fair and
+            happy were their lives, until an evil man (he was the High Priest of the COurt) an evil tale began, <lb/>Of how the lady was not true unto
+            her husband dear: <lb/>The Emperor believed the tale, and rose up in great fear, <lb/>And drove poor Bellisant away; in haste and dire
+            mischance <lb/>She took her way to Pepin's Court (her brother, King of France)</ab>
+         <figure/>
          <!-- There is a 1 at the bottom -->
          <pb/>
-         <figure></figure>
-         <ab>And as she fled, weighed down by grief and a sense of cruel scorn,
-         <lb/>Lo, in the forest two fair sons to Bellisant were born;
-         <lb/>But while her servant went to buy some food, a great she-bear
-         <lb/>Came up, and carried off one child unto her distant lair.
-         <lb/>Poor Bellisant ran after her, with many a sigh and moan;
-         <lb/>In vain,—and when she turned again, the other child was gone!</ab>
+         <figure/>
+         <ab>And as she fled, weighed down by grief and a sense of cruel scorn, <lb/>Lo, in the forest two fair sons to Bellisant were born; <lb/>But
+            while her servant went to buy some food, a great she-bear <lb/>Came up, and carried off one child unto her distant lair. <lb/>Poor
+            Bellisant ran after her, with many a sigh and moan; <lb/>In vain,—and when she turned again, the other child was gone!</ab>
          <!-- Number 2 -->
          <pb/>
          <pb/>
          <pb/>
-         <figure></figure>
-         <ab>now, Pepin chanced that very day to hunt with all his train
-         <lb/>In that same wood, and found the child ere she came back again;
-         <lb/>And took him home, and brought him up, and gave him all thing fine—
-         <lb/>Apparel, horses, and a name,— so he was VALENTINE.
-         <lb/>And brave and fair he grew,—King Pepin's daughter loved him well;
-         <lb/>The sons were jealous. Now will I his brother's story tell.</ab>
+         <figure/>
+         <ab>now, Pepin chanced that very day to hunt with all his train <lb/>In that same wood, and found the child ere she came back again; <lb/>And
+            took him home, and brought him up, and gave him all thing fine— <lb/>Apparel, horses, and a name,— so he was VALENTINE. <lb/>And brave and
+            fair he grew,—King Pepin's daughter loved him well; <lb/>The sons were jealous. Now will I his brother's story tell.</ab>
          <pb/>
          <pb/>
-         <!-- HOW DO I ENCODE THESE PAGES THE TEXT GOES RIGHT ACROSS THE MIDDLE?!?! -->
+         <ab>The she-bear and her savage cubs, they saved the child alive, <lb/>And nursed him well, and tended him,—well did he grow and thrive,
+            <lb/>They called him ORSON; in the woods he lived, a strong wild man, <lb/>And all he fought he killed with case; and so a wicked plan
+            <lb/>Was made by Pepin's sons for getting rid of Valentine, <lb/>Whom they induced so fight wih him, by flattering words and fine.
+            <lb/>But Valentine was conqueror, and Orson owned his might, <lb/>And served and followed him alway: and they were squire and knight.</ab>
+         <figure/>
          <pb/>
          <pb/>
-         <figure></figure>
-         <ab>Now, in that land there dwelt a man, the Green Knight he was called,
-         <lb/>Who by his strength and magic arts a lady fair enthralled,
-         <lb/>And kept in a prison dark and strong, and non could set her free;
-         <lb/>Not even Valentine prevailed, with all his bravery.</ab>
-         <pb/><pb/>
+         <figure/>
+         <ab>Now, in that land there dwelt a man, the Green Knight he was called, <lb/>Who by his strength and magic arts a lady fair enthralled,
+            <lb/>And kept in a prison dark and strong, and non could set her free; <lb/>Not even Valentine prevailed, with all his bravery.</ab>
          <pb/>
-         <ab>But Orson threw the Green Knight sown, and bound him with a chain,
-         <lb/>And set the lady free; both brothers then start off to gain
-         <lb/>The Green Knight's castle-gates,—two roaring lions kept guard there,
-         <lb/>But down they crouched when they beheld the brothers void of fear.</ab>
          <pb/>
-         <figure></figure>
-         <ab>And there within the castle hall they saw a head of brass,
-         <lb/>That uttered marvels,—of their birth and how it came to pass;
-         <lb/>How in a convent lonely was their mother Bellisant;
-         <lb/>How the King and Queen of France were thri uncle and thier aunt;
-         <lb/>How the High Priest had confessed his les, with many tears and groans;
-         <lb/>How the Emperor, their father, was in search of wife and sons,
-         <lb/>So the lost were found, the wrong made right, by all good rule and line;
-         <lb/>They married weel, and lived long years—ORSON and VALENTINE.</ab>
-         
+         <pb/>
+         <ab>But Orson threw the Green Knight sown, and bound him with a chain, <lb/>And set the lady free; both brothers then start off to gain
+            <lb/>The Green Knight's castle-gates,—two roaring lions kept guard there, <lb/>But down they crouched when they beheld the brothers void
+            of fear.</ab>
+         <pb/>
+         <figure/>
+         <ab>And there within the castle hall they saw a head of brass, <lb/>That uttered marvels,—of their birth and how it came to pass; <lb/>How in
+            a convent lonely was their mother Bellisant; <lb/>How the King and Queen of France were thri uncle and thier aunt; <lb/>How the High
+            Priest had confessed his les, with many tears and groans; <lb/>How the Emperor, their father, was in search of wife and sons, <lb/>So the
+            lost were found, the wrong made right, by all good rule and line; <lb/>They married weel, and lived long years—ORSON and VALENTINE.</ab>
+
          <!-- There are more pages here.  -->
       </body>
-  </text>
+   </text>
 </TEI>
