@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archive of Digital Editions of Valentine and Orson</title>
+                <sponsor>
+                    <name> University of New Haven Summer Undergraduate Research Fellowship</name>
+                </sponsor>
+                <funder>
+                    <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+                </funder>
+                <editor>
+                    <name>Anna Kroon</name>
+                </editor>
+                <principal>
+                    <persName>Anna Kroon</persName>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>This edition was created for the University of New Haven Summer Undergraduate Research Fellowship to digitally reproduce
+                    various chapbook, picture book, and other editions of Valentine and Orson.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <!-- publicationStmt is mandatory. It groups information concerning the publication or distribution of the digital TEI object; use <sourceDesc> section below to record publication data that may be different than TEI edition, say for an historical source work.  -->
+                <publisher><!-- the person or ogranization responsible for the creation of TEI edition, and who has rights over its production and/or distribution -->Publisher
+                    Name</publisher>
+                <address>
+                    <addrLine><!-- repeat addrLine as needed -->Address Line 1,</addrLine>
+                </address>
+                <availability>
+                    <!-- availability statement clarifies a general copyright and fair use policy governing reuse of the TEI edition -->
+                    <licence target="URL_of_full_license"> Summary statement of which license applies to this TEI file </licence>
+                    <p><!-- okay to add <p> to include other related but necessary blocks of information -->Availablity statement continued...</p>
+                </availability>
+                <date when="2017-01-01"><!-- the date of publication of the TEI edition -->Publication Date</date>
+                <distributor><!-- you can identify organization responsible for the distribution or purchase handling of the TEI edition -->Distributor
+                    of this TEI Edition</distributor>
+                <date><!-- provide a date for update on availability statement if different than publication date -->Availability Date</date>
+            </publicationStmt>
+            <!--  <seriesStmt>
+                seriesStmt is optional. It records the relation between separate documents understood as each part of a series (e.g., collected works (essays, lectures, articles, etc.), document volumes, etc.) by declaring its parent work/identity 
+                <title level="s">Title of Series</title>
+                <respStmt>
+                    name of person responsible for series, e.g., editor or organization 
+                    <resp>ed. by...</resp>
+                    <name>Name of Editor</name>
+                </respStmt>
+                <biblScope unit="vol">biblScope...</biblScope>
+                <idno type="ISSN">idno...</idno>
+            </seriesStmt> -->
+
+            <notesStmt>
+                <!-- notesStmt is optional. It adds multiple notes for additional information or discussion of document -->
+                <note><!-- repeat <note> as needed -->Notes on the text...</note>
+            </notesStmt>
+
+            <sourceDesc>
+                <!-- sourceDesc is mandatory. It describes the source from which an electronic text was derived or generated, typically a bibliographic description <bibl> in the case of a digitized edition of a print text; in the case where the TEI file is born digital,we can include <p>"born digital"</p> -->
+                <bibl>
+                    <title>Title of Source Work</title>
+                    <author>Author of Source Work</author>
+                    <pubPlace>Place of Publication of Source Work</pubPlace>
+                    <publisher>Publisher of Source Work</publisher>
+                    <date>Publication Date of Source Work</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- encodingDesc section is optional, but recommended. It groups elements for recording information on the encoding practices used in relation to source work's orginal formatting; this section can range from a brief statement on encoding approach under <projectDesc> to a more detailed overview of editorial decisions under <editorialDesc> -->
+            <projectDesc>
+                <p>This project encodes various chapbook, picture book, and other versions of the medieval romance story, Valentine and Orson, using
+                    the extensible markup language for detailed presentation of the text. The goal of the project is to create a digital archive of
+                    available versions of this story with project specific encoding guidelines created in accordance with the Text Encoding Initiative
+                    P5 Guidelines. The editions and project guidelines are available on the TEI Archiving, Publishing, and Access Service and GitHub
+                    repositories. </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Texts for this project were selected from the available collections at the Beinecke Rare Books Library, Rare Books and Special
+                    Collections at McGill University and the Baldwin Library of Historical Children's Literature George A. Smathers Libraries at
+                    University of Florida. </p>
+            </samplingDecl>
+
+            <editorialDecl>
+                <correction>
+                    <p>Text is presented with no corrections or normalizations to spellings or printing errors. </p>
+                </correction>
+                <normalization>
+                    <p>Punctuation spacing has been normalized in cases where excessive spacing exists.</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks or lack thereof have been preserved. In all cases of spoken dialogue the “said” tag was used.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Hyphenation for line breaks and page breaks has not been retained. All other hyphenation and dash usage has been retained. </p>
+                </hyphenation>
+                <interpretation>
+                    <p>Texts are presented with limited interpretive mark up. Only the main body of the story has been encoded. Images for pages not
+                        encoded are provided. See descriptive outline below. </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--document body content goes here--></p>
+        </body>
+    </text>
+</TEI>
