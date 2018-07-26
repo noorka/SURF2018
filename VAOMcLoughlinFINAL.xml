@@ -81,10 +81,11 @@
             <titlePage>
                 <docTitle>
                     <titlePart type="desc">AUNT KATE'S<lb/>SERIES</titlePart>
+                    <lb/>
                     <titlePart type="main">VALENTINE AND ORSON</titlePart>
                 </docTitle>
                 <figure>
-                    <graphic url="https://www.flickr.com/photos/165413855@N05/43610031252/sizes/l/"/>
+                    <graphic url="https://farm1.staticflickr.com/934/43610031252_720f8b4605_m_d.jpg"/>
                     <lb/>
                     <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                 </figure>
@@ -111,6 +112,7 @@
                     resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                 <figure>
                     <graphic url="https://farm1.staticflickr.com/833/42940033124_b92612192a_m_d.jpg"/>
+                    <lb/>
                     <caption>ORSON CARRIED AWAY BY THE BEAR.</caption>
                     <lb/>
                     <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
@@ -147,6 +149,7 @@
                     resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                 <figure>
                     <graphic url="https://farm1.staticflickr.com/914/42940033144_6856a3c625_m_d.jpg"/>
+                    <lb/>
                     <caption>VALENTINE FOUND BY KING PEPIN.</caption>
                     <lb/>
                     <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
