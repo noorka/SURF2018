@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archive of Digital Editions of Valentine and Orson</title>
+                <sponsor>
+                    <name> University of New Haven Summer Undergraduate Research Fellowship</name>
+                </sponsor>
+                <funder>
+                    <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+                </funder>
+                <editor>
+                    <name>Anna Kroon</name>
+                </editor>
+                <principal>
+                    <persName>Anna Kroon</persName>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>This edition was created for the University of New Haven Summer Undergraduate Research Fellowship to digitally reproduce
+                    various chapbook, picture book, and other editions of Valentine and Orson.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Anna Kroon</publisher>
+                <address>
+                    <addrLine>300 Boston Post Rd</addrLine>
+                    <addrLine>West Haven, CT 06516</addrLine>
+                </address>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Attribution-NonCommercial 4.0 International</licence>
+                </availability>
+                <date when="2018-07-26">July 26, 2018</date>
+                <distributor>TEI Archiving, Publishing, and Access Service (TAPAS)</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The History of Valentine and Orson</title>
+                    <publisher>Company of Walking Stationers</publisher></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This project encodes various chapbook, picture book, and other versions of the medieval romance story, Valentine and Orson, using
+                    the extensible markup language for detailed presentation of the text. The goal of the project is to create a digital archive of
+                    available versions of this story with project specific encoding guidelines created in accordance with the Text Encoding Initiative
+                    P5 Guidelines. The editions and project guidelines are available on the TEI Archiving, Publishing, and Access Service and GitHub
+                    repositories. </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Texts for this project were selected from the available collections at the Beinecke Rare Books Library, Rare Books and Special
+                    Collections at McGill University and the Baldwin Library of Historical Children's Literature George A. Smathers Libraries at
+                    University of Florida. </p>
+            </samplingDecl>
+
+            <editorialDecl>
+                <correction>
+                    <p>Text is presented with no corrections or normalizations to spellings or printing errors. </p>
+                </correction>
+                <normalization>
+                    <p>Punctuation spacing has been normalized in cases where excessive spacing exists.</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks or lack thereof have been preserved. In all cases of spoken dialogue the “said” tag was used.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Hyphenation for line breaks and page breaks has not been retained. All other hyphenation and dash usage has been retained. </p>
+                </hyphenation>
+                <interpretation>
+                    <p>Texts are presented with limited interpretive mark up. Only the main body of the story has been encoded. Images for pages not
+                        encoded are provided. See descriptive outline below. </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="1"
+                facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0000.jpg"
+                resp="Rare Books and Special Collections, McGill University"/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE<lb/>HISTORY<lb/>OF<lb/>Valentine and Orson.</titlePart>
+                </docTitle>
+                <argument>
+                    <ab>Reader, you'll find this little Book contains<lb/>Engough to answer thy expense and pains;<lb/>And if with caution you will
+                        read it through,<lb/>'Twill both instruct, and delight thee too.</ab>
+                </argument>
+                <figure>
+                    <graphic url="https://farm1.staticflickr.com/845/28766521937_236d0ec028_m_d.jpg"/>
+                    <lb/>
+                    <figDesc>(Rare Books and Special Collections, McGill University)</figDesc>
+                </figure>
+                <docImprint>
+                    <publisher>Printed for the Company of Walking<lb/>Stationers.</publisher>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div type="story">
+                <pb n="2"
+                    facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0001.jpg"
+                    resp="Rare Books and Special Collections, McGill University"/>
+                <head>THE<lb/>HISTORY<lb/>OF<lb/>Valentine and Orson.</head>
+                <div type="chapter">
+                    <head>CHAP. I.</head>
+                    <ab>The baniſhment of the Lady Belliſant, who is delivered of Valentine and Orſon at one Birth, in a wood,</ab>
+                    <p>IT is recorded, that PEPEN, King of France, had a fair ſiſter named Belliſant, who was married to Alexander, the Emperor of
+                        Greece, and by him carried to his Capital at Conſtantinople; from whence, after having lived with great virtue, ſhe was
+                        baniſshed through the means of a falſe accuſer, whom the had ferverely checked for his imprudence; and though at the ſame time
+                        ſhe was big with Child, yet ſhe was compelled to <pb n="3"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0002.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 3 )</fw><lb/><lb/>leave her
+                        huſband's empire, to the great regret of the people, attended only with a ſquire named Blandiman.</p>
+                    <p>After great fatigue and travel, ſhe arrived in the foreſt of Orleans, where finding her pains come thick upon her, ſhe
+                        diſmiſſed her attendant for a midwife, but before his return was delivered of two lovely children, one of which was conveyed
+                        away by a ſhe bear, but ſhe willing to ſave it purſued on her hands and knees, leaving the other behind.</p>
+                    <p>But before her return, King Pepin being a hunting in the foreſt, came to the tree where ſhe left the other babe, and cauſing it
+                        to be taken up, ſent it to nurſe, and when it grew up called his name Valentine.—Blandiman at length came back, and inſtead of
+                        finding his miſtreſs found her brother Pepin at the tree, to which he declared all that had happened, and how his ſiſter was
+                        baniſhed through the falſe ſuggeſtions of the arch prieſt; which when King Pepin heard he was greatly enraged againſt the lady
+                        Belliſant, ſaying the Emperor ought to have put her to death; ſo leaving Blandiman, he returned to his nobles at Paris.—The
+                        lady Belliſant having followed the bear to no pur<pb n="4"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0003.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 4 )</fw><lb/>poſe, returned
+                        to the place where ſhe had left the other babe; but great was her ſorrow when Blandiman ſaid he had ſeen her brother Pepin,
+                        but could tell nothing of the child; and having comforted her for the loſs of it, they went to the ſea-ſide took ſhipping, and
+                        arrived at the caſtle of the Giant Feragus, in Portugal.</p>
+                    <p>All this while the bear nouriſhed the infant amongſt her young ones, until at length it grew up a wild hairy man, doing great
+                        miſchief to all that paſſed thro' the foreſt; in which we will leave him, and return to the arch prieſt, who did great
+                        miſchief, till he was impeached by a merchant of having wrongfully accuſed the Empreſs; upon which they fought, and the
+                        merchant conquering, made the prieſt confeſs all his treaſons, the Emperor wrote about it to the King of France, and he was
+                        hanged.</p>
+                    <figure>
+                        <graphic url="https://farm1.staticflickr.com/923/28766522037_2b2cee641c_m_d.jpg"/>
+                        <lb/>
+                        <figDesc>(Rare Books and Special Collections, McGill University)</figDesc>
+                    </figure>
+                </div>
+                <pb n="5"
+                    facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0004.jpg"
+                    resp="Rare Books and Special Collections, McGill University"/>
+                <fw type="header" place="top">( 5 )</fw>
+                <div type="chapter">
+                    <head>CHAP. II.</head>
+                    <ab>Valentine conquers his Brother in the foreſt of Orelans.</ab>
+                    <p>NOW was Valentine grown a luſty young man, and by the King as greatly beloed as if he had been his own ſon: commanding him to
+                        be taught the uſe of arms, in which he ſoon became ſo expert, that few in the court dared to encounter him: which made Hufray
+                        and Heny the King's baſtard ſons exceedingly envy him. At this juncture great complaints were made againſt the Wild Man, from
+                        whom no Knight had eſcaped with his life, that had encountered him: which made the King promiſe a thouſand marks to any that
+                        would bring him dead or alive, which offer none dare except; but Hufray and Henry deſired King Pepin to ſend Valentine, with a
+                        view of getting rid of ſo powerful a rival in the King's favour, but his Majeſty ſeeing their malady, was very angry, telling
+                        them, he would rather loſe the beſt Baron in the land.</p>
+                    <pb n="6"
+                        facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0005.jpg"
+                        resp="Rare Books and Special Collections, McGill University"/>
+                    <fw type="header" place="top">( 6 )</fw>
+                    <p>However Valentine deſired leave of his Majeſty to go to the foreſt, reſolving either to conquer the Wild Man, or die in the
+                        attempt. Accordingly having furniſhed himſelf with a good horſe and arms, he ſet forward on his journey, and after two days
+                        travelling, he arrived in the foreſt; in the evening he tied his horſe to a large ſpreading oak, and got up in a tree himſelf,
+                        for his ſecurity, where he reſted that night.</p>
+                    <p>Next morning he beheld the Wild Man traverſing the foreſt in ſearch of his prey, at length he came to the tree where
+                        Valentine's horſe ſtood, from whom he pulled many hairs, upon which the horſe kicked him. The Wild Man feeling the pain, was
+                        going to tear him to pieces, which Valentine ſeeing, made ſigns as if he would fight him, and accordingly he leaped down, and
+                        gave him a blow, but the Wild Man caught him and threw him to the ground. Then taking up Valentine's ſhield, he beheld it with
+                        amaze, with reſpect to the divers colours thereon emblazoned.</p>
+                    <p>Valentine being much bruiſed, got up and went towards his brother in great anger: but Orſon ran to a tree, and the <pb n="7"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0006.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 7 )</fw><lb/><lb/>they
+                        engaged; but both being terrible wounded gave out by conſent; after which Valentine ſigned to Orſon, that if he would yield to
+                        him, he would order matters ſo as he ſhould become a rational creature.</p>
+                    <p>Orſon thinking that he meant him no harm, ſtretched forth his hand to him; upon which he bound him, and then led him to Paris,
+                        where he preſented him to King Pepin, who had the Wild Man baptized by the name of Orſon, from his being taken in a wood.
+                        Orſon's actions during their ſtay there very much amuſed the court, that at length the Duke of Acquitain ſent letters
+                        importin, that whoſoever would overthrow the Green Knight, a pagan champion, ſhould have his daughter Fazon in marriage. Upon
+                        which propſition Valentine ſet out for that province, attended by his brother Orſon, by which means he came to the knowledge
+                        of his parents, as we ſhall find hereafter.</p>
+                    <figure>
+                        <graphic url="https://farm1.staticflickr.com/913/28766522157_fe917720c2_m_d.jpg"/>
+                        <lb/>
+                        <figDesc>(Rare Books and Special Collections, McGill University)</figDesc>
+                    </figure>
+                </div>
+                <pb n="8"
+                    facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0007.jpg"
+                    resp="Rare Books and Special Collections, McGill University"/>
+                <fw type="header" place="top">( 8 )</fw>
+                <div type="chapter">
+                    <head>CHAP. III</head>
+                    <ab>The fight between Orſon and the Green Knight.</ab>
+                    <p>AFTER a long journey, Valentine and Orſon arrived at Duke Savary's palace in Acquitain; and making known the reaſon that they
+                        came there, were preſented to Fazon; to whom Valentine thus addreſſed himſelf:</p>
+                    <p><said>"Sweet creature, King Pepin has ſent me hither with the braveſt Knight in all his realm to fight the Green Knight, who
+                            though he his dumb and naked, is endued with ſuch valour, that no Knight under the ſun is able to cope with
+                        him."</said></p>
+                    <p>During this ſpeeched ſhe viewed Orſon narrowly, and he her; but ſupper coming in, interrupted them, and they ſat down to
+                        eat.</p>
+                    <p>Whilſt they were in the midſt of all their feaſtings, the Green Knight entered ſaying, <said>Duke Acquitain haſt thou any more
+                            Knights to cope with me for thy daughter?</said>
+                        <said>Yes</said>, replied the Duke, <said>I have ſeventeen</said>, and then ſhewed them to <pb n="9"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0008.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 9 )</fw><lb/><lb/>him. The
+                        Green Knight then ſaid to them, <said>eat your fill, for to-morrow will be your laſt. </said>Orſon hearing what he ſaid, was
+                        much incenſed againſt him, and ſuddenly riſing from the table, threw the Green Knight with ſuch force againſt the wall as laid
+                        him dead for ſome time; which very much pleased the whole company.</p>
+                    <p>Next day many Knights went to fight the Green Knight, but he overcame and ſlew them all; till at laſt, Orſon being armed in
+                        Valentine's armour, came to the Green Knight's pavilion, and defying him, they began the moſt deſperate combat as ever was
+                        heard of, and the Green Knight made ſo great a ſtroke at him, as to cut of the top of his helmit, half his ſhield, and wounded
+                        him much. But this ſerved only to enrage the valiant Orſon, who coming up to him on foot, took hold of him, and pulled him
+                        from his horſe, got aſtride him, and was juſt going to kill him, but was prevented by the ſudden arrival of Valentine, who
+                        interceded with Orſon to ſpare his life, on condition of his turning Chriſtian, and acquainting King Pepin how he was
+                        conquered.</p>
+                    <pb n="10"
+                        facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0009.jpg"
+                        resp="Rare Books and Special Collections, McGill University"/>
+                    <fw type="header" place="top">( 10 )</fw>
+                    <p>The Green Knight having promiſed to perform all that was deſired, they led him priſoner to the city of Acquitain, and the Duke
+                        recieved them with great joy, and offered the lady Fazon to Orſon; but he would not marry her till his brother had won the
+                        Green Knight's ſiſter, lady Clerimond; not till they had talked with the enchanted head of braſs to know his parents, and get
+                        the proper uſe of his tongue; which when the lady knew ſhe was very ſorry, because ſhe loved Orſon, and was reſolved to marry
+                        none but him, who had so nobly conquered the Green Knight.</p>
+                    <!-- There is a line of pretty stars here -->
+                </div>
+                <div type="chapter">
+                    <head>CHAP. IV.</head>
+                    <ab>Valentine and Orſon go in ſearch of Lady Clerimond, who had the Brazen Head in her poſſeſſion.</ab>
+                    <p>V<!-- Fancu letter -->ALENTINE and Orſon having taken leave of the Duke of Acquitain and his dauther Fazon, proceeded on their
+                        journey in ſearch of the lady Clerimond, and at laſt came to a tower of burniſhed braſs; which upon enquiry, they diſco<pb
+                            n="11"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0010.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 11 )</fw><lb/><lb/>vered to
+                        be kept by Clerimond, ſiſter to Feragus and the defeated Green Knight, and having demanded entrance was refuſed it by the
+                        centinal who guarded the gate, which provoked Valentine to that degree, that he run againſt him with ſuch fury that the
+                        centinal fell down dead immediately.</p>
+                    <p>The lady Clerimond beheld all this dispute, and ſeeing them brave Knights, recieved them courteouſly.—Valentine having
+                        perſented tokens from the Green Knight told her, he came there for the love of her, and to diſcourſe with the Allknowing Head,
+                        concerning their parents. After dinner, the lady took them by the hand, and led them to the chamber of rarieties, where the
+                        Head was placed between four pillars of pure jaſper, when, as they entered it made the following ſpeech to Valentine:</p>
+                    <p><said>"Thou famous Knight of royal extract art called Valentine the vlaient, who of right ought to marry the lady Clerimond.
+                            Thou art, ſon to the Emperor of Greece Empreſs Belliſant, who is now in the caſtle of Feragus, in Portugal, where they
+                            have reſided for twenty years. King Pepin is thine uncle, and the Wild Man thy brother; the Empreſs Belliſant brought ye
+                            two forth in the foreſt of Oreleans; he was <pb n="12"
+                                facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0011.jpg"
+                                resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 12 )</fw><lb/>taken away
+                            by a ravenous bear, and thou waſt taken up by thy uncle Pepin, who brought thee up to man's eſtate. Moreover I likewiſe
+                            tell thee, that thy brother ſhall never ſpeak till thou cutteſt the thread that grows under his tongue.</said></p>
+                    <p>The Brazen Head having ended his ſpeech, Valentine embraced Orſon and cut the thread which grew under his tongue; and he
+                        directly related many ſurpriſing things. After which Valnetine married Lady Clerimond, but not before ſhe turned
+                        Chriſtian.</p>
+                    <p>In this caſtle lived a dwarf, named Pacolet, who was an enchanter, and by his art had contrived a horſe of wood, and in the
+                        forehead a fixed pin, by turning of which he could convey himſelf to the fartheſt part of the world.</p>
+                    <p>This enchanter flies to Portugal, and informs Feragus of his ſiſter's nuptials, and of her turning Chriſtian; which ſo enraged
+                        him that he ſwore by Mahomet he would make her rue it, and thereupon he got ready his fleet, and ſailed towards the castle of
+                        Clerimond, where when he arrived he concealed his malice from his fiſter, and alſo the two Knights, telling them that he came
+                        to fetch them into Portugal the bet<pb n="13"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0012.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 13 )</fw><lb/><lb/>ter to
+                        ſolemnize the marriage, and he would turn Chriſtian at their arrival at the caſtle, all which they believed, and ſoon after
+                        embarked with him. When he had got them on board, he ordered them to be put in irons, which ſo grieved his ſiſter Clerimond,
+                        that ſhe would have thrown herſelf into the ſea had ſhe not been ſtopped.</p>
+                </div>
+                <div type="chapter">
+                    <head>CHAP. V.</head>
+                    <ab>Pecolet comforts the Ladies, and delivers Valentine and Orſon out of Priſon.</ab>
+                    <p>WHEN they were come to Portugal, he put Valentine and Orſon in a dungeon, fed them with bread and water, but allowed his ſiſter
+                        Clerimond the liberty of the caſtle, where ſhe meets the Empreſs Belliſant, who had been confined twenty years in the caſtle
+                        of Feragus: She ſeeing her ſo full of grief, comforts her, enquiring the reaſon which ſhe told her. The Empreſs was mighty
+                        greieved, but Pacolet comforted them by telling them he ſhould releaſe them all that evening, which he accordingly did in the
+                        following manner:</p>
+                    <pb n="14"
+                        facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0013.jpg"
+                        resp="Rare Books and Special Collections, McGill University"/>
+                    <fw type="header" place="top">( 14 )</fw>
+                    <p>In the dead of the night he goes to the dungeon, where lay Valentine and Orſon bound in chains, and touching the doors with his
+                        magical wand they flew open; and coming to the Knights, he releaſed them and conducted them to the apartment where Belliſant
+                        and Clerimond were, who were exceedingly tranſported; but Pacolet hindered them from diſcourſing long by telling them they
+                        muſt depart before the guards of Feragus awaked, which would put a ſtop to his proceedings.</p>
+                    <p>So Pacolet led them to the gates of the caſtle, and having prepared a ſhip he conveyed them to Lady Fazon, at the City of
+                        Acquitain; next morning when Feragus heard of their eſcape, he was enraged to the laſt degree. The Knights and Ladies being
+                        out of danger, ſoon arrived at Acquitain, to the great joy of Lady Fazon, who was ſoon after married to Orſon with great
+                        ſolemnity; upon which tilts and tournaments were performed for many days; but Valentine carried the prize by overthrowing at
+                        leaſt above an hundred brave Knights.</p>
+                </div>
+                <div type="chapter">
+                    <pb n="15"
+                        facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0014.jpg"
+                        resp="Rare Books and Special Collections, McGill University"/>
+                    <fw type="header" place="top">( 15 )</fw>
+                    <head>CHAP. VI.</head>
+                    <ab>Valentine dies, and Orſon turns Hermit.</ab>
+                    <p>NOW Valentine being greatly diſtreſſed in his mind for the death of his father, (who lately died) reſolved to make a pilgrimage
+                        to the Holy Sepulchre; and thereupon taking leave of his wife Clerimond; and giving the government of the Empire unto his
+                        brother, he departed, to the great ſorrow of all, particular his mother Belliſant, and the fair Clerimond.</p>
+                    <p>Valentine, after ſeven years absence returned, dreſſed like a poor palmer, begging victuals at the gate of his own palace; and
+                        at length being ſick and about to die, he called for Clerimond and made himſelf known to her, at which ſhe was ready to give
+                        up the ghoſt.</p>
+                    <p>At laſt having recommended the care of her to his brother, and the Empreſs, his dear mother, and bleſſing of them, he turned on
+                        one ſide, and breathed out his noble ſoul from his illuſtrious body, to the great grief of all the valiant Knights of
+                        Chriſtendom, to whom he had been a no<pb n="16"
+                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0015.jpg"
+                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 16 )</fw><lb/><lb/>ble
+                        example, and a generous reliever of.—But Clerimond never could eſpouſe any one, but betook her to a ſingle life, always
+                        lamenting the loss of her beloved huſband.</p>
+                    <p>After his death, Orſon governed the Empire with great wiſdom and juſtice for ſeven years, till at length, ſeeing the frail
+                        ſtate of human affairs, he gave the charge of his Empire, Wife, and Children, to the Green Knight, and then turning Hermit, he
+                        became reſident of the foreſts and woods, where, after living to a great age, this magnanimous and invincible hero ſurrendered
+                        up his body unto never ſparing death, and his ſoul to the immortal deities of whoſe attributes it had a true reſemblance.</p>
+                    <ab>Thus reader, you may ſee that none with-ſtand<lb/>Tho' great in valour, or in vaſt command,<lb/>The mighty force of death's
+                        all conquering hand.</ab>
+                    <!-- Little star box -->
+                    <ab>Finis.</ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
