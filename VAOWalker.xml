@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archive of Digital Editions of Valentine and Orson</title>
+                <sponsor>
+                    <name> University of New Haven Summer Undergraduate Research Fellowship</name>
+                </sponsor>
+                <funder>
+                    <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+                </funder>
+                <editor>
+                    <name>Anna Kroon</name>
+                </editor>
+                <principal>
+                    <persName>Anna Kroon</persName>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>This edition was created for the University of New Haven Summer Undergraduate Research Fellowship to digitally reproduce
+                    various chapbook, picture book, and other editions of Valentine and Orson.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Anna Kroon</publisher>
+                <address>
+                    <addrLine>300 Boston Post Rd</addrLine>
+                    <addrLine>West Haven, CT 06516</addrLine>
+                </address>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Attribution-NonCommercial 4.0 International</licence>
+                </availability>
+                <date when="2018-07-27">July 27, 2018 <!-- CHANGE THIS AS NEEDED!!!!!! --></date>
+                <distributor>TEI Archiving, Publishing, and Access Service (TAPAS)</distributor>
+            </publicationStmt>
+            <notesStmt>
+                <!-- notesStmt is optional. It adds multiple notes for additional information or discussion of document  EDIT AS NEEDED -->
+                <note><!-- repeat <note> as needed -->Notes on the text...</note>
+            </notesStmt>
+
+            <sourceDesc>
+                <!-- NEED TO FILL THIS OUT FOR EACH!!! -->
+                <!-- sourceDesc is mandatory. It describes the source from which an electronic text was derived or generated, typically a bibliographic description <bibl> in the case of a digitized edition of a print text; in the case where the TEI file is born digital,we can include <p>"born digital"</p> -->
+                <bibl>
+                    <title>Title of Source Work</title>
+                    <author>Author of Source Work</author>
+                    <pubPlace>Place of Publication of Source Work</pubPlace>
+                    <publisher>Publisher of Source Work</publisher>
+                    <date>Publication Date of Source Work</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This project encodes various chapbook, picture book, and other versions of the medieval romance story, Valentine and Orson, using
+                    the extensible markup language for detailed presentation of the text. The goal of the project is to create a digital archive of
+                    available versions of this story with project specific encoding guidelines created in accordance with the Text Encoding Initiative
+                    P5 Guidelines. The editions and project guidelines are available on the TEI Archiving, Publishing, and Access Service and GitHub
+                    repositories. </p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Texts for this project were selected from the available collections at the Beinecke Rare Books Library, Rare Books and Special
+                    Collections at McGill University and the Baldwin Library of Historical Children's Literature George A. Smathers Libraries at
+                    University of Florida. </p>
+            </samplingDecl>
+
+            <editorialDecl>
+                <correction>
+                    <p>Text is presented with no corrections or normalizations to spellings or printing errors. </p>
+                </correction>
+                <normalization>
+                    <p>Punctuation spacing has been normalized in cases where excessive spacing exists.</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks or lack thereof have been preserved. In all cases of spoken dialogue the “said” tag was used.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Hyphenation for line breaks and page breaks has not been retained. All other hyphenation and dash usage has been retained. </p>
+                </hyphenation>
+                <interpretation>
+                    <p>Texts are presented with limited interpretive mark up. Only the main body of the story has been encoded. Images for pages not
+                        encoded are provided. See descriptive outline below. </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="1" facs="https://farm1.staticflickr.com/931/29803848858_19f0b8fbf1_o_d.jpg" resp="Beinecke Rare Book and Manuscript Library, Yale University"/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE<lb/>HISTORY<lb/>OF<lb/>VALENTINE<lb/>AND<lb/>ORSON.</titlePart>
+                    <!-- This can also have types of "sub", "short", or "desc". -->
+                </docTitle>
+                <figure><graphic url=""></graphic><lb/><figDesc>(Beinecke Rare Book and Manuscript Library, Yale University)</figDesc></figure>
+                <argument><ab>Reader, thou'lt find this little book contains<lb/>Enough to answer thy expense and pains;<lb/>And if with caution thou wilt read it through,<lb/>'Twill both instruct thee and delight thee too.</ab></argument>
+                <docImprint>
+                    <!-- None of these stories have authors associated with them. If one did the author would also be included. -->
+                    <pubPlace>OTLEY:</pubPlace>
+                    <publisher>PRINTED BY <name>WILLIAM WALKER.</name></publisher>
+                    <!-- <docDate>MDCCXCIV.</docDate> -->
+                    <!-- docDate is used if the year of publication is present on the document. -->
+                </docImprint>
+            </titlePage>
+            <pb n="2" facs="https://farm1.staticflickr.com/861/42957532084_fdd910a11e_o_d.jpg" resp="Beinecke Rare Book and Manuscript Library, Yale University"/>
+        </front>
+        <body>
+            <pb n="3" facs="https://farm1.staticflickr.com/918/29803849038_737c131410_o_d.jpg" resp="Beinecke Rare Book and Manuscript Library, Yale University"/>
+            <div type="story">
+                <head>THE HISTORY<lb/>OF<lb/>VALENTINE AND ORSON.</head>
+                <div type="chapter">
+                    <head>CHAP. I.</head>
+                    <ab>The Banishment of the Lady Bellifant, who was delivered of two fine Sons at a Birth, viz. Valentine and Orson, in a wood.</ab>
+                    <p>IT is recorded that Pepin, King of France, had a fair sisiter called Bellifant, who was married to Alexander Emperor of Greece, and by him carried to his captial city, Constantinople; from whence, after having lived with great virtue, she was banished through the means of a false traitorous accusation of the arch-priest, whom he had severely reprimanded for his imprudence in making love to her; and though at the time she was great with child, yet was she compelled to leave her husband's emprire, ot the great regret of his people, being attended only with a 'squire, named Blandiman, who had served her as a faithful servant in her brother Pepin's court of France.</p>
+                    <p>Now, after great fatigue and travel, she arrived in the forest of Orleans, where finsing her pains<pb n="4" facs="https://farm1.staticflickr.com/856/29803849108_c119b10095_o_d.jpg" resp="Beinecke Rare Book and Manuscript Library, Yale University"/><fw type="header" place="top">4 VALENTINE AND ORSON.</fw><lb/><lb/>come thick upon her, she dismissed the 'squire to seek her a midwife, and sat down under a great tree, expecting his arrival: but ere he returned, she was delivered of two lovely children; one of which was conveyed away by a she-bear, which she being desirous to retrieve, pursued on her hands and knees, leaving the other to the protection of heaven. But see what happened ere she returned again from her fruitless pursuit. King Pepin being a hunting in the forest, came to the tree where she left the other infant: so causing it to be taken up, he ordered one of his 'squires to put it to a nurse, who, when he grew up, called his name Valentine. Blandiman at length came back, and instead of finding his mistress, found her brother, the king of France, at the tree, to whom he declared all that had happened; and how his sister was banished, through false suggestions of the sccursed arch-priest; which, when king Pepin heard he was greatly enraged against the lady Bellifant, saying, the emperor had been too favourable to her, in not killing her. And so leaving Blandiman, he returned with his nobles towards Paris; but the lady Bellifant after having long followed the bear to no purpose, returned towards the place where she laid the other babe down: but great was her sorrow, when Blandiman told her he had seen her brother Pepin, but as to the child, he could tell nothing of it: and having comforted her all he could for the loss of both her children, they went to the sea side, took shipping, and arrived at the castle of the giant Ferragus in Protugal.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
