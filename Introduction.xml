@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Archive of Digital Editions of Valentine and Orson</title>
+            <sponsor>
+               <name> University of New Haven Summer Undergraduate Research Fellowship</name>
+            </sponsor>
+            <funder>
+               <name>University of New Haven Summer Undergraduate Research Fellowship</name>
+            </funder>
+            <editor>
+               <name>Anna Kroon</name>
+            </editor>
+            <principal>
+               <persName>Anna Kroon</persName>
+            </principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>This edition was created for the University of New Haven Summer Undergraduate Research Fellowship to digitally reproduce
+               various chapbook, picture book, and other editions of Valentine and Orson.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Anna Kroon</publisher>
+            <address>
+               <addrLine>300 Boston Post Rd</addrLine>
+               <addrLine>West Haven, CT 06516</addrLine>
+            </address>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Attribution-NonCommercial 4.0 International</licence>
+            </availability>
+            <date when="2018-07-26">July 26, 2018</date>
+            <distributor>TEI Archiving, Publishing, and Access Service (TAPAS)</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>The Marquis of Carabas' Picture Book</title>
+               <author>Walter Crane</author>
+               <pubPlace>London</pubPlace>
+               <publisher>George Routledge and Sons</publisher></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project encodes various chapbook, picture book, and other versions of the medieval romance story, Valentine and Orson, using
+               the extensible markup language for detailed presentation of the text. The goal of the project is to create a digital archive of
+               available versions of this story with project specific encoding guidelines created in accordance with the Text Encoding Initiative
+               P5 Guidelines. The editions and project guidelines are available on the TEI Archiving, Publishing, and Access Service and GitHub
+               repositories. </p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Texts for this project were selected from the available collections at the Beinecke Rare Books Library, Rare Books and Special
+               Collections at McGill University and the Baldwin Library of Historical Children's Literature George A. Smathers Libraries at
+               University of Florida. </p>
+         </samplingDecl>
+         
+         <editorialDecl>
+            <correction>
+               <p>Text is presented with no corrections or normalizations to spellings or printing errors. </p>
+            </correction>
+            <normalization>
+               <p>Punctuation spacing has been normalized in cases where excessive spacing exists.</p>
+            </normalization>
+            <quotation>
+               <p>Original quotation marks or lack thereof have been preserved. In all cases of spoken dialogue the “said” tag was used.</p>
+            </quotation>
+            <hyphenation>
+               <p>Hyphenation for line breaks and page breaks has not been retained. All other hyphenation and dash usage has been retained. </p>
+            </hyphenation>
+            <interpretation>
+               <p>Texts are presented with limited interpretive mark up. Only the main body of the story has been encoded. Images for pages not
+                  encoded are provided. See descriptive outline below. </p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This research project was conceived as a research proposal for the University of New Haven Summer Undergraduate Research Fellowship. For
+            this project I thought I was going to be delving into morals, lessons, and themes in historical children’s literature to see if I could
+            understand the values of society through what adults teach to children. To do this I was going to create digital editions of various
+            children’s books from a, at the time unspecified, year in the 19th century. Then I stumbled on a beautifully illustrated picture book by
+            Mr. Walter Crane (included in this collection). The Marquis of Carabas’s Picture book includes the stories of Puss in Boots, Old Mother
+            Hubbard, Valentine and Orson, and the Absurd ABCs. The first two stories I had heard of, and of course I know my ABCs, but I had never
+            read Valentine and Orson. This caught my attention, so I looked for more. And so many more I found.</p>
+
+         <p>When I began my research into children’s literature Valentine and Orson was not a story I was expecting to find. Twin brothers separated
+            at birth who then reunite to fight injustice was not even close to my imagined ‘historical children’s literature’. My expectations aligned
+            more with something like the Three Little Kittens that is more domestically and morally focused. I began by reading scholarship about
+            children’s literature and its history. Through this research I learned a great deal about the development of a distinct genre for children
+            and the shift from religious drama to light-hearted fantasy. After research I took a cursory look into digitized library archives to find
+            potential artifacts and examples of the form. During this part of my research I found the picture book that changed my collection.</p>
+
+         <p>This collection is comprised of 5 different versions of Valentine and Orson. These were selected as a sort of survey of the different
+            styles and centuries’ treatment of the story. The process of selection was partly based on versions I thought were interesting and partly
+            which copies were in legible and permitted for use. Ideally I would have included a larger range of publication dates and formats, but
+            there were restrictions on my time, ability, and availability of the texts. The biggest constraint on the entire process was my time and
+            transcription speed. There are many copies of chapbooks that I have not included as their content is very similar to the Jewitt and R. P.
+            &amp;C. Williams chapbooks included in the collection and I wanted to ensure a variety of story adaptations. There are some longer
+            versions, such as the Edes version used in the encoding guidelines, with much more complicated storylines that took so long to encode they
+            were not able to be included in this particular collection. Still others were in poor condition, in foreign libraries, or still under
+            copyright.</p>
+
+         <p>To create these digital editions I transcribed and encoded each text with the eXtensible Markup Language following the Text Encoding
+            Initiative P5 Guidelines. Throughout this process I had to make decisions about what would be represented and how it would be represented
+            to create a set of project specific guidelines (the record in this collection entitled Encoding Guide, view in XML mode to see the
+            markup). Then I checked each for mistakes by having the text read out character by character and comparing that to the transcription.
+            Finally I linked each edition’s images to the page beginnings and figure markers and uploaded them onto the TAPAS platform. Please see the
+            individual editions’ TEI header for information on editorial decisions.</p>
+         <p>I am continuing my work in my thesis research. I am working on representing adaptation and story variation through encoding. Once that
+            project is complete all artifacts in this collection will be revised to include the new encoding.</p>
+      </body>
+   </text>
+</TEI>
